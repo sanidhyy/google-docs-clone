@@ -12,6 +12,7 @@
     "format:fix": "prettier --write . --config .prettierrc.mjs"
   },
   "dependencies": {
+    "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@tiptap/extension-image": "^2.10.3",
     "@tiptap/extension-table": "^2.10.3",
