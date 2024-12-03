@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --check . --config .prettierrc.mjs",
+    "format:fix": "prettier --write . --config .prettierrc.mjs"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
