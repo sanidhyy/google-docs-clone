@@ -15,6 +15,7 @@
     "@radix-ui/react-dropdown-menu": "^2.1.2",
     "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "@tiptap/extension-color": "^2.10.3",
     "@tiptap/extension-font-family": "^2.10.3",
     "@tiptap/extension-highlight": "^2.10.3",
     "@tiptap/extension-image": "^2.10.3",
