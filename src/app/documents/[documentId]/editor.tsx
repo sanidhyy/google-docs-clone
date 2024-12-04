@@ -1,5 +1,6 @@
 'use client';
 
+import FontFamily from '@tiptap/extension-font-family';
 import Image from '@tiptap/extension-image';
 import Table from '@tiptap/extension-table';
 import TableCell from '@tiptap/extension-table-cell';
@@ -7,6 +8,7 @@ import TableHeader from '@tiptap/extension-table-header';
 import TableRow from '@tiptap/extension-table-row';
 import TaskItem from '@tiptap/extension-task-item';
 import TaskList from '@tiptap/extension-task-list';
+import TextStyle from '@tiptap/extension-text-style';
 import Underline from '@tiptap/extension-underline';
 import { EditorContent, useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
@@ -19,6 +21,7 @@ export const Editor = () => {
 
   const editor = useEditor({
     onCreate: ({ editor }) => {
+      editor?.commands.setFontFamily('Arial');
       setEditor(editor);
     },
     onUpdate: ({ editor }) => {
@@ -50,6 +53,7 @@ export const Editor = () => {
       },
     },
     extensions: [
+      FontFamily,
       Image,
       ImageResize,
       StarterKit,
@@ -63,11 +67,9 @@ export const Editor = () => {
         nested: true,
       }),
       TaskList,
+      TextStyle,
       Underline,
     ],
-    content: `
-      <h1>Hello World!</h1>
-    `,
     immediatelyRender: false,
   });
 
