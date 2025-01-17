@@ -66,6 +66,11 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* hide cancel button in search input */
+  input[type='search']::-webkit-search-cancel-button {
+    display: none;
+  }
 }
 
 /* Tiptap editor */
