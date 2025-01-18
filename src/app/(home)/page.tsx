@@ -1,8 +1,5 @@
-import Link from 'next/link';
-
-import { Button } from '@/components/ui/button';
-
 import { Navbar } from './navbar';
+import { TemplateGallery } from './template-gallery';
 
 const HomePage = () => {
   return (
@@ -12,11 +9,7 @@ const HomePage = () => {
       </div>
 
       <div className="mt-16">
-        <h1 className="text-4xl font-bold text-emerald-500">Hello, World!</h1>
-
-        <Button size="lg" asChild>
-          <Link href="/documents/123">Click me</Link>
-        </Button>
+        <TemplateGallery />
       </div>
     </div>
   );
