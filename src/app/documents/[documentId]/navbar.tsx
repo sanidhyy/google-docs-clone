@@ -232,7 +232,7 @@ export const Navbar = () => {
                     </MenubarSubContent>
                   </MenubarSub>
 
-                  <MenubarItem onClick={() => editor?.commands.unsetAllMarks()}>
+                  <MenubarItem disabled={!editor?.can().unsetAllMarks()} onClick={() => editor?.commands.unsetAllMarks()}>
                     <RemoveFormattingIcon className="size-4 mr-2" />
                     Clear formatting
                   </MenubarItem>
