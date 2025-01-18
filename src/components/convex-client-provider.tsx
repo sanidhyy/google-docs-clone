@@ -1,6 +1,6 @@
 'use client';
 
-import { ClerkProvider, SignIn, useAuth } from '@clerk/clerk-react';
+import { ClerkProvider, SignIn, useAuth } from '@clerk/nextjs';
 import { AuthLoading, Authenticated, ConvexReactClient, Unauthenticated } from 'convex/react';
 import { ConvexProviderWithClerk } from 'convex/react-clerk';
 import type { PropsWithChildren } from 'react';
@@ -17,7 +17,7 @@ export function ConvexClientProvider({ children }: PropsWithChildren) {
 
         <Unauthenticated>
           <div className="flex items-center justify-center min-h-screen">
-            <SignIn />
+            <SignIn routing="hash" />
           </div>
         </Unauthenticated>
 
