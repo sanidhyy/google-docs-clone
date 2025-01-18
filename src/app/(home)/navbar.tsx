@@ -1,3 +1,4 @@
+import { UserButton } from '@clerk/nextjs';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -14,7 +15,7 @@ export const Navbar = () => {
         </div>
       </Link>
       <SearchInput />
-      <div /> {/* TODO: User Button */}
+      <UserButton />
     </nav>
   );
 };
