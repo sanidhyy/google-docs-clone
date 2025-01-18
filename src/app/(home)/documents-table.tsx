@@ -2,6 +2,7 @@ import type { PaginationStatus } from 'convex/react';
 
 import type { Doc } from '@/../convex/_generated/dataModel';
 import { FullscreenLoader } from '@/components/fullscreen-loader';
+import { Button } from '@/components/ui/button';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 
 import { DocumentRow } from './document-row';
@@ -45,6 +46,12 @@ export const DocumentsTable = ({ documents, loadMore, status }: DocumentsTablePr
           )}
         </Table>
       )}
+
+      <div className="flex items-center justify-center">
+        <Button variant="ghost" size="sm" onClick={() => loadMore(5)} disabled={status === 'LoadingMore' || status !== 'CanLoadMore'}>
+          {status === 'LoadingMore' || status === 'CanLoadMore' ? 'Load more' : 'End of results'}
+        </Button>
+      </div>
     </div>
   );
 };
