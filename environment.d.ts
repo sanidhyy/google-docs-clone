@@ -6,6 +6,10 @@ declare global {
     interface ProcessEnv {
       // app base url
       NEXT_PUBLIC_APP_BASE_URL: string;
+
+      // convex deployment & url
+      CONVEX_DEPLOYMENT: string;
+      NEXT_PUBLIC_CONVEX_URL: string;
     }
   }
 }
