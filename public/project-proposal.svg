@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 517">
+  <!-- White Background -->
+  <rect width="400" height="517" fill="white"/>
+  
+  <!-- Geometric Pattern -->
+  <g transform="translate(50, 30) scale(0.7)">
+    <!-- Background layers -->
+    <path d="M0 0 L450 0 L450 250 L0 250 Z" fill="#80CBC4"/>
+    <path d="M0 50 L200 50 L350 200 L0 200 Z" fill="#E8C59C" transform="rotate(-10)"/>
+    <path d="M100 100 L450 100 L450 250 L100 250 Z" fill="#4DB6AC" transform="rotate(-10)"/>
+    <path d="M-50 150 L100 150 L100 200 L-50 200 Z" fill="#FF5722" transform="rotate(-10)"/>
+    <path d="M350 180 L450 180 L450 230 L350 230 Z" fill="#5D4037" transform="rotate(-10)"/>
+  </g>
+
+  <!-- Project Title -->
+  <text x="50" y="300" font-family="Arial, sans-serif" font-size="24" fill="#5D4037" font-weight="bold">
+    Project Name
+  </text>
+  
+  <!-- Date -->
+  <text x="50" y="330" font-family="Arial, sans-serif" font-size="12" fill="#666666">
+    09.04.20XX
+  </text>
+  
+  <!-- Contact Information -->
+  <text x="50" y="380" font-family="Arial, sans-serif" font-size="12" fill="#666666">
+    Your Name
+  </text>
+  <text x="50" y="400" font-family="Arial, sans-serif" font-size="12" fill="#666666">
+    Your Company
+  </text>
+  <text x="50" y="420" font-family="Arial, sans-serif" font-size="12" fill="#666666">
+    123 Your Street
+  </text>
+  <text x="50" y="440" font-family="Arial, sans-serif" font-size="12" fill="#666666">
+    Your City, ST 12345
+  </text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 517">
+  <!-- White Background -->
+  <rect width="400" height="517" fill="white"/>
+  
+  <!-- Centered Plus Shape -->
+  <g transform="translate(100, 158.5) scale(2)">
+    <path d="M20 45 h25 v-25 h10 v25 h25 v10 h-25 v25 h-10 v-25 h-25 z" fill="#4285f4"/>
+  </g>
+</svg>

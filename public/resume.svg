@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 517">
+  <!-- White Background -->
+  <rect width="400" height="517" fill="white"/>
+  
+  <!-- Header Section -->
+  <text x="40" y="40" font-family="Arial, sans-serif" font-size="14" fill="#FF0000" font-weight="bold">Hello,</text>
+  <text x="40" y="70" font-family="Arial, sans-serif" font-size="18" font-weight="bold">I'm Your Name</text>
+  
+  <!-- Contact Info -->
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="11">123 YOUR STREET</text>
+  <text x="40" y="115" font-family="Arial, sans-serif" font-size="11">YOUR CITY, ST 12345</text>
+  <text x="40" y="130" font-family="Arial, sans-serif" font-size="11">TEL: 555.555.5555</text>
+  <text x="40" y="145" font-family="Arial, sans-serif" font-size="11">YOU.REPLY@EXAMPLE.COM</text>
+  
+  <!-- Skills Section -->
+  <text x="40" y="190" font-family="Arial, sans-serif" font-size="14" fill="#FF0000" font-weight="bold">Skills</text>
+  <text x="40" y="210" font-family="Arial, sans-serif" font-size="11">Skills description here. Core competencies and key abilities.</text>
+  
+  <!-- Experience Section -->
+  <text x="40" y="250" font-family="Arial, sans-serif" font-size="14" fill="#FF0000" font-weight="bold">Experience</text>
+  
+  <!-- Job Entries -->
+  <text x="40" y="280" font-family="Arial, sans-serif" font-size="10" fill="#666666">MONTH 20XX – MONTH 20YY</text>
+  <text x="40" y="295" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Company Name, Location</text>
+  <text x="180" y="295" font-family="Arial, sans-serif" font-size="12"> — Job Title</text>
+  
+  <!-- Job Details -->
+  <circle cx="50" cy="315" r="2" fill="#000000"/>
+  <text x="60" y="320" font-family="Arial, sans-serif" font-size="11">Key responsibility or achievement</text>
+  
+  <!-- Education Section -->
+  <text x="40" y="400" font-family="Arial, sans-serif" font-size="14" fill="#FF0000" font-weight="bold">Education</text>
+  <text x="40" y="430" font-family="Arial, sans-serif" font-size="12" font-weight="bold">College Name, Location — Degree</text>
+  
+  <!-- Awards Section -->
+  <text x="40" y="480" font-family="Arial, sans-serif" font-size="14" fill="#FF0000" font-weight="bold">Awards</text>
+  <text x="40" y="500" font-family="Arial, sans-serif" font-size="11">Notable achievement or recognition.</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 517">
+  <!-- White Background -->
+  <rect width="400" height="517" fill="white"/>
+  
+  <!-- Header -->
+  <text x="40" y="40" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Your Band</text>
+  <text x="40" y="60" font-family="Arial, sans-serif" font-size="11" fill="#ff4444">September 24, 20XX</text>
+  
+  <!-- Greeting -->
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="22">Hello fan,</text>
+  
+  <!-- Opening -->
+  <text x="40" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold">First, a big thank you!</text>
+  
+  <!-- Body Paragraphs - Shorter sentences -->
+  <text x="40" y="180" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+    Thanks for being such an amazing supporter of our music.
+  </text>
+  
+  <text x="40" y="210" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+    We're excited to announce our new album is coming soon.
+  </text>
+  
+  <text x="40" y="240" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+    You'll be the first to hear our latest singles.
+  </text>
+  
+  <text x="40" y="280" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+    We're planning something special for our loyal fans.
+  </text>
+  
+  <text x="40" y="310" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+    Stay tuned for exclusive content and updates.
+  </text>
+  
+  <text x="40" y="340" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+    Can't wait to see you at our next show.
+  </text>
+  
+  <!-- Closing -->
+  <text x="40" y="400" font-family="Arial, sans-serif" font-size="11">Lots of love,</text>
+  
+  <!-- Signature -->
+  <text x="40" y="440" font-family="Arial, sans-serif" font-size="11">Your Name</text>
+</svg>

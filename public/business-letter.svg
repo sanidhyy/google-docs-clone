@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 517">
+  <!-- White Background -->
+  <rect width="400" height="517" fill="white"/>
+  
+  
+  <!-- Header with modern styling -->
+  <text x="40" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e3d59">YOUR COMPANY</text>
+  <line x1="40" y1="45" x2="360" y2="45" stroke="#1e3d59" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Contact Information with icons represented by small squares -->
+  <rect x="40" y="60" width="8" height="8" fill="#17a2b8" opacity="0.7"/>
+  <text x="55" y="68" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">123 YOUR STREET</text>
+  
+  <rect x="40" y="75" width="8" height="8" fill="#17a2b8" opacity="0.7"/>
+  <text x="55" y="83" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">YOUR CITY, ST 12345</text>
+  
+  <rect x="40" y="90" width="8" height="8" fill="#17a2b8" opacity="0.7"/>
+  <text x="55" y="98" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">(123) 456-7890</text>
+  
+  <rect x="40" y="105" width="8" height="8" fill="#17a2b8" opacity="0.7"/>
+  <text x="55" y="113" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">MYEMAIL@EXAMPLE.COM</text>
+  
+  <!-- Date with subtle background -->
+  <rect x="40" y="135" width="100" height="20" fill="#f8f9fa" rx="3"/>
+  <text x="48" y="148" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">September 24, 20XX</text>
+  
+  <!-- Greeting -->
+  <text x="40" y="185" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Dear Ms. Reader,</text>
+  
+  <!-- Body Paragraphs with left border -->
+  <rect x="40" y="205" width="2" height="150" fill="#17a2b8" opacity="0.3"/>
+  
+  <text x="50" y="220" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    Thank you for your interest in our services.
+  </text>
+  
+  <text x="50" y="245" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    We are pleased to provide you with our latest product offerings.
+  </text>
+  
+  <text x="50" y="270" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    Our team has extensive experience in business solutions.
+  </text>
+  
+  <text x="50" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    We look forward to discussing this opportunity further.
+  </text>
+  
+  <text x="50" y="320" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+    Please contact us if you have any questions.
+  </text>
+  
+  <!-- Closing with subtle styling -->
+  <text x="40" y="380" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Sincerely,</text>
+  
+  <!-- Signature area with background -->
+  <rect x="40" y="420" width="100" height="30" fill="#f8f9fa" rx="3"/>
+  <text x="48" y="440" font-family="Arial, sans-serif" font-size="10" fill="#1e3d59" font-weight="bold">YOUR NAME</text>
+  
+  <!-- Decorative Bottom Element -->
+  <rect x="40" y="470" width="320" height="1" fill="#1e3d59" opacity="0.2"/>
+</svg>
