@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import type { PropsWithChildren } from 'react';
 
+import { ConvexClientProvider } from '@/components/convex-client-provider';
 import { cn } from '@/lib/utils';
 
 import './globals.css';
@@ -20,7 +21,9 @@ export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
   return (
     <html lang="en">
       <body className={cn('antialiased', inter.className)}>
-        <NuqsAdapter>{children}</NuqsAdapter>
+        <NuqsAdapter>
+          <ConvexClientProvider>{children}</ConvexClientProvider>
+        </NuqsAdapter>
       </body>
     </html>
   );
