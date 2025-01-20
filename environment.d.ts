@@ -17,6 +17,7 @@ declare global {
 
       // liveblocks keys
       NEXT_PUBLIC_LIVEBLOCKS_API_KEY: string;
+      LIVEBLOCKS_SECRET_KEY: string;
     }
   }
 }

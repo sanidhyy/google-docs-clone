@@ -9,7 +9,7 @@ interface RoomProps {
 
 export const Room = ({ children, roomId }: PropsWithChildren<RoomProps>) => {
   return (
-    <LiveblocksProvider publicApiKey={process.env.NEXT_PUBLIC_LIVEBLOCKS_API_KEY}>
+    <LiveblocksProvider authEndpoint="/api/liveblocks-auth" throttle={16}>
       <RoomProvider id={roomId}>
         <ClientSideSuspense fallback={<div>Loading…</div>}>{children}</ClientSideSuspense>
       </RoomProvider>

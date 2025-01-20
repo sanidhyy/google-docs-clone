@@ -68,7 +68,9 @@ export const Editor = () => {
       FontFamily,
       FontSizeExtension,
       Highlight.configure({ multicolor: true }),
-      Image,
+      Image.extend({
+        name: 'image-editor',
+      }),
       ImageResize,
       liveblocks,
       LineHeightExtension,
