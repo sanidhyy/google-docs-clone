@@ -1,7 +1,9 @@
 'use client';
 
 import { useMutation } from 'convex/react';
+import { ConvexError } from 'convex/values';
 import { type PropsWithChildren, useState } from 'react';
+import { toast } from 'sonner';
 
 import { api } from '@/../convex/_generated/api';
 import type { Id } from '@/../convex/_generated/dataModel';
@@ -35,6 +37,10 @@ export const RenameDialog = ({ documentId, initialTitle, children }: PropsWithCh
 
     update({ id: documentId, title: title.trim() || 'Untitled Document' })
       .then(() => setOpen(false))
+      .catch((error) => {
+        const errorMessage = error instanceof ConvexError ? error.data : 'Something went wrong!';
+        toast.error(errorMessage);
+      })
       .finally(() => setIsUpdating(false));
   };
 

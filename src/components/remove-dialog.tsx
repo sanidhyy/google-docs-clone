@@ -1,7 +1,9 @@
 'use client';
 
 import { useMutation } from 'convex/react';
+import { ConvexError } from 'convex/values';
 import { type PropsWithChildren, useState } from 'react';
+import { toast } from 'sonner';
 
 import { api } from '@/../convex/_generated/api';
 import type { Id } from '@/../convex/_generated/dataModel';
@@ -46,7 +48,12 @@ export const RemoveDialog = ({ documentId, children }: PropsWithChildren<RemoveD
               e.stopPropagation();
               setIsRemoving(true);
 
-              remove({ id: documentId }).finally(() => setIsRemoving(false));
+              remove({ id: documentId })
+                .catch((error) => {
+                  const errorMessage = error instanceof ConvexError ? error.data : 'Something went wrong!';
+                  toast.error(errorMessage);
+                })
+                .finally(() => setIsRemoving(false));
             }}
           >
             Delete

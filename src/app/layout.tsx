@@ -4,6 +4,7 @@ import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import type { PropsWithChildren } from 'react';
 
 import { ConvexClientProvider } from '@/components/convex-client-provider';
+import { Toaster } from '@/components/ui/sonner';
 import { cn } from '@/lib/utils';
 
 import './globals.css';
@@ -22,7 +23,11 @@ export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
     <html lang="en">
       <body className={cn('antialiased', inter.className)}>
         <NuqsAdapter>
-          <ConvexClientProvider>{children}</ConvexClientProvider>
+          <ConvexClientProvider>
+            <Toaster theme="light" closeButton richColors />
+
+            {children}
+          </ConvexClientProvider>
         </NuqsAdapter>
       </body>
     </html>
