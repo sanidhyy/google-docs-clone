@@ -77,5 +77,8 @@
     "tailwindcss": "^3.4.1",
     "tidy-imports": "npm:@trivago/prettier-plugin-sort-imports",
     "typescript": "^5"
-  }
+  },
+  "trustedDependencies": [
+    "@clerk/shared"
+  ]
 }
