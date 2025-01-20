@@ -68,7 +68,7 @@ export const Room = ({ children, roomId }: PropsWithChildren<RoomProps>) => {
       }}
     >
       <RoomProvider id={roomId} initialStorage={{ leftMargin: editorMargin, rightMargin: editorMargin }}>
-        <ClientSideSuspense fallback={<FullscreenLoader className="Loading Document..." />}>{children}</ClientSideSuspense>
+        <ClientSideSuspense fallback={<FullscreenLoader label="Loading Document..." />}>{children}</ClientSideSuspense>
       </RoomProvider>
     </LiveblocksProvider>
   );
