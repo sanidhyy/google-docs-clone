@@ -15,14 +15,14 @@ interface DocumentsTableProps {
 
 export const DocumentsTable = ({ documents, loadMore, status }: DocumentsTableProps) => {
   return (
-    <div className="max-w-screen-xl mx-auto px-16 py-6 flex flex-col gap-5">
+    <div className="mx-auto flex max-w-screen-xl flex-col gap-5 px-16 py-6">
       {documents === undefined || status === 'LoadingFirstPage' ? (
-        <FullscreenLoader className="min-h-full h-24" />
+        <FullscreenLoader className="h-24 min-h-full" />
       ) : (
         <>
           <Table>
             <TableHeader>
-              <TableRow className="hover:bg-transparent border-none">
+              <TableRow className="border-none hover:bg-transparent">
                 <TableHead>Name</TableHead>
                 <TableHead>&nbsp;</TableHead>
                 <TableHead className="hidden md:table-cell">Shared</TableHead>

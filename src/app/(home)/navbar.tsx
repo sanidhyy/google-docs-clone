@@ -6,9 +6,9 @@ import { SearchInput } from './search-input';
 
 export const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between size-full">
+    <nav className="flex size-full items-center justify-between">
       <Link href="/" className="mr-6">
-        <div className="flex gap-3 items-center shrink-0">
+        <div className="flex shrink-0 items-center gap-3">
           <Image src="/logo.svg" alt="Docs Logo" width={36} height={36} />
 
           <h3 className="text-2xl font-extrabold text-indigo-600">DOCS</h3>

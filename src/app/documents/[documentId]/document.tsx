@@ -20,7 +20,7 @@ export const Document = ({ preloadedDocument, roomId }: DocumentProps) => {
   return (
     <Room roomId={roomId}>
       <div className="min-h-screen bg-[#fafbfd]">
-        <div className="flex flex-col px-4 pt-2 gap-y-2 fixed top-0 inset-x-0 z-10 bg-[#FAFBFD] print:hidden">
+        <div className="fixed inset-x-0 top-0 z-10 flex flex-col gap-y-2 bg-[#FAFBFD] px-4 pt-2 print:hidden">
           <Navbar data={document} />
           <Toolbar />
         </div>

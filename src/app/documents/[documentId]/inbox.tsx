@@ -36,7 +36,7 @@ const InboxMenu = () => {
           <Button variant="ghost" className="relative" size="icon">
             <BellIcon className="size-5" />
             {inboxNotifications.length > 0 && (
-              <span className="absolute -top-1 -right-1 size-4 rounded-full bg-sky-500 text-xs text-white flex items-center justify-center">
+              <span className="absolute -right-1 -top-1 flex size-4 items-center justify-center rounded-full bg-sky-500 text-xs text-white">
                 {inboxNotifications.length}
               </span>
             )}
@@ -51,7 +51,7 @@ const InboxMenu = () => {
               ))}
             </InboxNotificationList>
           ) : (
-            <div className="p-2 w-[400px] text-center text-sm text-muted-foreground">No notifications.</div>
+            <div className="w-[400px] p-2 text-center text-sm text-muted-foreground">No notifications.</div>
           )}
         </DropdownMenuContent>
       </DropdownMenu>

@@ -70,12 +70,12 @@ export const Ruler = () => {
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseUp}
-      className="h-6 mx-auto border-b border-gray-300 flex items-end relative select-none print:hidden"
+      className="relative mx-auto flex h-6 select-none items-end border-b border-gray-300 print:hidden"
       style={{
         width: editorWidth,
       }}
     >
-      <div id="ruler-container" className="size-full relative">
+      <div id="ruler-container" className="relative size-full">
         <Maker
           position={leftMargin}
           isLeft
@@ -106,13 +106,13 @@ export const Ruler = () => {
                 >
                   {marker % 10 === 0 && (
                     <>
-                      <div className="absolute bottom-0 w-px h-2 bg-neutral-500" />
-                      <span className="absolute bottom-2 text-[10px] text-neutral-500 transform -translate-x-1/2">{marker / 10 + 1}</span>
+                      <div className="absolute bottom-0 h-2 w-px bg-neutral-500" />
+                      <span className="absolute bottom-2 -translate-x-1/2 transform text-[10px] text-neutral-500">{marker / 10 + 1}</span>
                     </>
                   )}
 
-                  {marker % 5 === 0 && marker % 10 !== 0 && <div className="absolute bottom-0 w-px h-1.5 bg-neutral-500" />}
-                  {marker % 5 !== 0 && <div className="absolute bottom-0 w-px h-1 bg-neutral-500" />}
+                  {marker % 5 === 0 && marker % 10 !== 0 && <div className="absolute bottom-0 h-1.5 w-px bg-neutral-500" />}
+                  {marker % 5 !== 0 && <div className="absolute bottom-0 h-1 w-px bg-neutral-500" />}
                 </div>
               );
             })}
@@ -134,15 +134,15 @@ interface MakerProps {
 const Maker = ({ isDragging, isLeft, onDoubleClick, onMouseDown, position }: MakerProps) => {
   return (
     <div
-      className="absolute top-0 w-4 h-full cursor-ew-resize z-[5] group -ml-2"
+      className="group absolute top-0 z-[5] -ml-2 h-full w-4 cursor-ew-resize"
       style={{ [isLeft ? 'left' : 'right']: `${position}px` }}
       onMouseDown={onMouseDown}
       onDoubleClick={onDoubleClick}
     >
-      <FaCaretDown className="absolute left-1/2 top-0 h-full fill-blue-500 trasnform -translate-x-1/2" />
+      <FaCaretDown className="trasnform absolute left-1/2 top-0 h-full -translate-x-1/2 fill-blue-500" />
 
       <div
-        className="absolute left-1/2 top-4 transform -translate-x-1/2 h-screen w-px scale-x-50 bg-blue-500"
+        className="absolute left-1/2 top-4 h-screen w-px -translate-x-1/2 scale-x-50 transform bg-blue-500"
         style={{
           display: isDragging ? 'block' : 'none',
         }}

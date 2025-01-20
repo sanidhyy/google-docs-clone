@@ -127,7 +127,7 @@ export const Navbar = ({ data }: NavbarProps) => {
 
   return (
     <nav className="flex items-center justify-between">
-      <div className="flex gap-2 items-center">
+      <div className="flex items-center gap-2">
         <Link href="/">
           <Image src="/logo.svg" alt="Docs Logo" width={36} height={36} />
         </Link>
@@ -136,52 +136,52 @@ export const Navbar = ({ data }: NavbarProps) => {
           <DocumentInput title={data.title} id={data._id} />
 
           <div className="flex">
-            <Menubar className="border-none bg-transparent shadow-none h-auto p-0">
+            <Menubar className="h-auto border-none bg-transparent p-0 shadow-none">
               <MenubarMenu>
-                <MenubarTrigger className="text-sm font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">File</MenubarTrigger>
+                <MenubarTrigger className="h-auto rounded-sm px-[7px] py-0.5 text-sm font-normal hover:bg-muted">File</MenubarTrigger>
 
                 <MenubarContent className="print:hidden">
                   <MenubarSub>
                     <MenubarSubTrigger>
-                      <FileIcon className="size-4 mr-2" /> Save
+                      <FileIcon className="mr-2 size-4" /> Save
                     </MenubarSubTrigger>
                     <MenubarSubContent>
                       <MenubarItem onClick={onSaveJSON}>
-                        <FileJsonIcon className="size-4 mr-2" />
+                        <FileJsonIcon className="mr-2 size-4" />
                         JSON
                       </MenubarItem>
                       <MenubarItem onClick={onSaveHTML}>
-                        <GlobeIcon className="size-4 mr-2" />
+                        <GlobeIcon className="mr-2 size-4" />
                         HTML
                       </MenubarItem>
 
                       <MenubarItem onClick={() => window.print()}>
-                        <BsFilePdf className="size-4 mr-2" />
+                        <BsFilePdf className="mr-2 size-4" />
                         PDF
                       </MenubarItem>
                       <MenubarItem onClick={onSaveText}>
-                        <FileTextIcon className="size-4 mr-2" />
+                        <FileTextIcon className="mr-2 size-4" />
                         Text
                       </MenubarItem>
                     </MenubarSubContent>
                   </MenubarSub>
 
                   <MenubarItem onClick={onNewDocument}>
-                    <FilePlusIcon className="size-4 mr-2" /> New Document
+                    <FilePlusIcon className="mr-2 size-4" /> New Document
                   </MenubarItem>
 
                   <MenubarSeparator />
 
                   <RenameDialog documentId={data._id} initialTitle={data.title}>
                     <MenubarItem onClick={(e) => e.stopPropagation()} onSelect={(e) => e.preventDefault()}>
-                      <FilePenIcon className="size-4 mr-2" />
+                      <FilePenIcon className="mr-2 size-4" />
                       Rename
                     </MenubarItem>
                   </RenameDialog>
 
                   <RemoveDialog documentId={data._id}>
                     <MenubarItem onClick={(e) => e.stopPropagation()} onSelect={(e) => e.preventDefault()}>
-                      <Trash2Icon className="size-4 mr-2" />
+                      <Trash2Icon className="mr-2 size-4" />
                       Remove
                     </MenubarItem>
                   </RemoveDialog>
@@ -189,24 +189,24 @@ export const Navbar = ({ data }: NavbarProps) => {
                   <MenubarSeparator />
 
                   <MenubarItem onClick={() => window.print()}>
-                    <PrinterIcon className="size-4 mr-2" />
+                    <PrinterIcon className="mr-2 size-4" />
                     Print <MenubarShortcut>⌘P</MenubarShortcut>
                   </MenubarItem>
                 </MenubarContent>
               </MenubarMenu>
 
               <MenubarMenu>
-                <MenubarTrigger className="text-sm font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">Edit</MenubarTrigger>
+                <MenubarTrigger className="h-auto rounded-sm px-[7px] py-0.5 text-sm font-normal hover:bg-muted">Edit</MenubarTrigger>
 
                 <MenubarContent>
                   <MenubarItem disabled={!editor?.can().undo()} onClick={() => editor?.commands.undo()}>
-                    <Undo2Icon className="size-4 mr-2" />
+                    <Undo2Icon className="mr-2 size-4" />
                     Undo
                     <MenubarShortcut>⌘Z</MenubarShortcut>
                   </MenubarItem>
 
                   <MenubarItem disabled={!editor?.can().redo()} onClick={() => editor?.commands.redo()}>
-                    <Redo2Icon className="size-4 mr-2" />
+                    <Redo2Icon className="mr-2 size-4" />
                     Redo
                     <MenubarShortcut>⌘Y</MenubarShortcut>
                   </MenubarItem>
@@ -214,7 +214,7 @@ export const Navbar = ({ data }: NavbarProps) => {
               </MenubarMenu>
 
               <MenubarMenu>
-                <MenubarTrigger className="text-sm font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">Insert</MenubarTrigger>
+                <MenubarTrigger className="h-auto rounded-sm px-[7px] py-0.5 text-sm font-normal hover:bg-muted">Insert</MenubarTrigger>
 
                 <MenubarContent>
                   <MenubarSub>
@@ -232,36 +232,36 @@ export const Navbar = ({ data }: NavbarProps) => {
               </MenubarMenu>
 
               <MenubarMenu>
-                <MenubarTrigger className="text-sm font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">Format</MenubarTrigger>
+                <MenubarTrigger className="h-auto rounded-sm px-[7px] py-0.5 text-sm font-normal hover:bg-muted">Format</MenubarTrigger>
 
                 <MenubarContent>
                   <MenubarSub>
                     <MenubarSubTrigger>
-                      <TextIcon className="size-4 mr-2" />
+                      <TextIcon className="mr-2 size-4" />
                       Text
                     </MenubarSubTrigger>
 
                     <MenubarSubContent>
                       <MenubarItem disabled={!editor?.can().toggleBold()} onClick={() => editor?.commands.toggleBold()}>
-                        <BoldIcon className="size-4 mr-2" />
+                        <BoldIcon className="mr-2 size-4" />
                         Bold
                         <MenubarShortcut>⌘B</MenubarShortcut>
                       </MenubarItem>
 
                       <MenubarItem disabled={!editor?.can().toggleItalic()} onClick={() => editor?.commands.toggleItalic()}>
-                        <ItalicIcon className="size-4 mr-2" />
+                        <ItalicIcon className="mr-2 size-4" />
                         Italic
                         <MenubarShortcut>⌘I</MenubarShortcut>
                       </MenubarItem>
 
                       <MenubarItem disabled={!editor?.can().toggleUnderline()} onClick={() => editor?.commands.toggleUnderline()}>
-                        <UnderlineIcon className="size-4 mr-2" />
+                        <UnderlineIcon className="mr-2 size-4" />
                         Underline
                         <MenubarShortcut>⌘U</MenubarShortcut>
                       </MenubarItem>
 
                       <MenubarItem disabled={!editor?.can().toggleStrike()} onClick={() => editor?.commands.toggleStrike()}>
-                        <StrikethroughIcon className="size-4 mr-2" />
+                        <StrikethroughIcon className="mr-2 size-4" />
                         Strikethrough&nbsp;&nbsp;
                         <MenubarShortcut>⌘S</MenubarShortcut>
                       </MenubarItem>
@@ -269,7 +269,7 @@ export const Navbar = ({ data }: NavbarProps) => {
                   </MenubarSub>
 
                   <MenubarItem disabled={!editor?.can().unsetAllMarks()} onClick={() => editor?.commands.unsetAllMarks()}>
-                    <RemoveFormattingIcon className="size-4 mr-2" />
+                    <RemoveFormattingIcon className="mr-2 size-4" />
                     Clear formatting
                   </MenubarItem>
                 </MenubarContent>

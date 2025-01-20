@@ -30,7 +30,7 @@ export const TemplateGallery = () => {
 
   return (
     <div className="bg-[#f1f3f4]">
-      <div className="max-w-screen-xl mx-auto px-16 py-6 flex flex-col gap-y-4">
+      <div className="mx-auto flex max-w-screen-xl flex-col gap-y-4 px-16 py-6">
         <h3 className="font-medium">Start a new document</h3>
 
         <Carousel>
@@ -38,19 +38,19 @@ export const TemplateGallery = () => {
             {templates.map((template) => (
               <CarouselItem
                 key={template.id}
-                className="basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1.5 xl:basis-1/6 2xl:basis-[14.285714%] pl-4"
+                className="basis-1/2 pl-4 sm:basis-1/3 md:basis-1/4 lg:basis-1.5 xl:basis-1/6 2xl:basis-[14.285714%]"
               >
-                <div className={cn('aspect-[3/4] flex flex-col gap-y-2.5', isCreating && 'pointer-events-none opacity-50')}>
+                <div className={cn('flex aspect-[3/4] flex-col gap-y-2.5', isCreating && 'pointer-events-none opacity-50')}>
                   <button
                     disabled={isCreating}
                     onClick={() => onTemplateClick(template.label, template.initialContent)}
                     style={{
                       backgroundImage: `url(${template.imageUrl})`,
                     }}
-                    className="size-full bg-cover bg-center bg-no-repeat hover:border-blue-500 rounded-sm border hover:bg-blue-50 transition flex flex-col items-center justify-center gap-y-4 bg-white"
+                    className="flex size-full flex-col items-center justify-center gap-y-4 rounded-sm border bg-white bg-cover bg-center bg-no-repeat transition hover:border-blue-500 hover:bg-blue-50"
                   />
 
-                  <p className="text-sm font-medium truncate">{template.label}</p>
+                  <p className="truncate text-sm font-medium">{template.label}</p>
                 </div>
               </CarouselItem>
             ))}

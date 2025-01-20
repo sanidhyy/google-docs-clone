@@ -73,7 +73,7 @@ export const DocumentInput = ({ title, id }: DocumentInputProps) => {
             value={value}
             onChange={onChange}
             onBlur={() => setIsEditing(false)}
-            className="absolute inset-0 text-lg text-black px-1.5 bg-transparent truncate"
+            className="absolute inset-0 truncate bg-transparent px-1.5 text-lg text-black"
           />
         </form>
       ) : (
@@ -85,7 +85,7 @@ export const DocumentInput = ({ title, id }: DocumentInputProps) => {
               inputRef.current?.focus();
             }, 0);
           }}
-          className="text-lg px-1.5 cursor-pointer truncate"
+          className="cursor-pointer truncate px-1.5 text-lg"
         >
           {title}
         </span>

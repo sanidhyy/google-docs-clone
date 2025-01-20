@@ -12,10 +12,10 @@ interface ErrorPageProps {
 
 const ErrorPage = ({ error, reset }: ErrorPageProps) => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center space-y-6">
-      <div className="text-center space-y-4">
+    <div className="flex min-h-screen flex-col items-center justify-center space-y-6">
+      <div className="space-y-4 text-center">
         <div className="flex justify-center">
-          <div className="bg-rose-100 p-3 rounded-full">
+          <div className="rounded-full bg-rose-100 p-3">
             <AlertTriangleIcon className="size-10 text-rose-600" />
           </div>
         </div>
@@ -28,7 +28,7 @@ const ErrorPage = ({ error, reset }: ErrorPageProps) => {
       </div>
 
       <div className="flex items-center gap-x-3">
-        <Button onClick={reset} className="font-medium px-6">
+        <Button onClick={reset} className="px-6 font-medium">
           Try again
         </Button>
 

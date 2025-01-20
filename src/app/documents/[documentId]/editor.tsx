@@ -113,11 +113,11 @@ export const Editor = ({ initialContent }: EditorProps) => {
   });
 
   return (
-    <div className="size-full overflow-x-auto bg-[#f9fbfd] px-4 print:p-0 print:bg-white print:overflow-visible">
+    <div className="size-full overflow-x-auto bg-[#f9fbfd] px-4 print:overflow-visible print:bg-white print:p-0">
       <Ruler />
 
       <div
-        className="min-w-max flex justify-center py-4 print:py-0 mx-auto print:w-full print:min-w-0"
+        className="mx-auto flex min-w-max justify-center py-4 print:w-full print:min-w-0 print:py-0"
         style={{ width: `${editorWidth}px` }}
       >
         <EditorContent editor={editor} />

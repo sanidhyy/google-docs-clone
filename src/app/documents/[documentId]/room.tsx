@@ -14,7 +14,7 @@ interface RoomProps {
   roomId: string;
 }
 
-type User = { id: string; name: string; avatar: string };
+type User = { id: string; name: string; avatar: string; color: string };
 
 export const Room = ({ children, roomId }: PropsWithChildren<RoomProps>) => {
   const [users, setUsers] = useState<User[]>([]);
@@ -23,7 +23,7 @@ export const Room = ({ children, roomId }: PropsWithChildren<RoomProps>) => {
     () => async () => {
       try {
         const list = await getUsers();
-        setUsers(list);
+        setUsers(list.map((list) => ({ ...list, color: '' })));
       } catch (error) {
         toast.error(error instanceof Error ? error.message : 'Failed to fetch users!');
       }
