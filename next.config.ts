@@ -9,14 +9,6 @@ const nextConfig: NextConfig = {
     }
     return config;
   },
-  experimental: {
-    turbo: {
-      resolveAlias: {
-        // Turbopack: Ensure that all imports of 'yjs' resolve to the same instance
-        yjs: path.resolve(__dirname, 'node_modules/yjs'),
-      },
-    },
-  },
 };
 
 export default nextConfig;
