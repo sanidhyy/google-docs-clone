@@ -14,6 +14,7 @@
   "dependencies": {
     "@clerk/nextjs": "^6.9.14",
     "@liveblocks/client": "^2.16.0",
+    "@liveblocks/node": "^2.16.0",
     "@liveblocks/react": "^2.16.0",
     "@liveblocks/react-tiptap": "^2.16.0",
     "@liveblocks/react-ui": "^2.16.0",
