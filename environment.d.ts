@@ -14,6 +14,9 @@ declare global {
       // clerk auth keys
       NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: string;
       CLERK_SECRET_KEY: string;
+
+      // liveblocks keys
+      NEXT_PUBLIC_LIVEBLOCKS_API_KEY: string;
     }
   }
 }
