@@ -6,6 +6,7 @@ import { toast } from 'sonner';
 
 import type { Id } from '@/../convex/_generated/dataModel';
 import { FullscreenLoader } from '@/components/fullscreen-loader';
+import { editorMargin } from '@/config/editor';
 
 import { getDocuments, getUsers } from './actions';
 
@@ -66,7 +67,7 @@ export const Room = ({ children, roomId }: PropsWithChildren<RoomProps>) => {
         }));
       }}
     >
-      <RoomProvider id={roomId}>
+      <RoomProvider id={roomId} initialStorage={{ leftMargin: editorMargin, rightMargin: editorMargin }}>
         <ClientSideSuspense fallback={<FullscreenLoader className="Loading Document..." />}>{children}</ClientSideSuspense>
       </RoomProvider>
     </LiveblocksProvider>
