@@ -30,7 +30,7 @@ export const SearchInput = () => {
   };
 
   return (
-    <div className="flex flex-1 items-center justify-center">
+    <div className="hidden sm:flex flex-1 items-center justify-center">
       <form onSubmit={handleSubmit} className="relative w-full max-w-[720px]">
         <Input
           type="search"

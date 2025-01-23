@@ -289,6 +289,7 @@ export const Navbar = ({ data }: NavbarProps) => {
           afterSelectOrganizationUrl="/"
           afterSelectPersonalUrl="/"
         />
+
         <UserButton />
       </div>
     </nav>
