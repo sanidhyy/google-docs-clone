@@ -68,6 +68,7 @@ export const Editor = ({ initialContent }: EditorProps) => {
     onDestroy: () => {
       setEditor(null);
     },
+    autofocus: true,
     editorProps: {
       attributes: {
         style: `width: ${editorWidth}px; padding-left: ${leftMargin ?? editorMargin}px; padding-right: ${rightMargin ?? editorMargin}px`,
