@@ -1,6 +1,6 @@
 import '@liveblocks/react-tiptap/styles.css';
 import '@liveblocks/react-ui/styles.css';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import type { PropsWithChildren } from 'react';
@@ -15,6 +15,10 @@ import './globals.css';
 const inter = Inter({
   subsets: ['latin'],
 });
+
+export const viewport: Viewport = {
+  themeColor: '#4f46e5',
+};
 
 export const metadata: Metadata = siteConfig;
 
