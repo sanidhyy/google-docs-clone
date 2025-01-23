@@ -1,42 +1,42 @@
 'use client';
 
-import { AlertTriangleIcon } from 'lucide-react';
+import { AlertCircle, Home, RefreshCw } from 'lucide-react';
 import Link from 'next/link';
+import { useEffect } from 'react';
 
 import { Button } from '@/components/ui/button';
 
-interface ErrorPageProps {
-  error: Error & { digest?: string };
-  reset: () => void;
-}
+const ErrorPage = ({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) => {
+  useEffect(() => {
+    console.error(error);
+  }, [error]);
 
-const ErrorPage = ({ error, reset }: ErrorPageProps) => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center space-y-6">
-      <div className="space-y-4 text-center">
-        <div className="flex justify-center">
-          <div className="rounded-full bg-rose-100 p-3">
-            <AlertTriangleIcon className="size-10 text-rose-600" />
-          </div>
+    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-4">
+      <div className="max-w-xl space-y-6 text-center">
+        <AlertCircle className="mx-auto size-20 text-rose-500" />
+
+        <h1 className="text-4xl font-bold text-gray-900">Oops! Something went wrong</h1>
+        <p className="text-lg text-gray-600">
+          We&apos;re sorry, but it seems there was an error processing your request. Please try again.
+        </p>
+
+        <div className="flex items-center justify-center space-x-4">
+          <Button variant="outline" asChild>
+            <Link href="/">
+              <Home className="mr-2 size-4" />
+              Back to Home
+            </Link>
+          </Button>
+
+          <Button onClick={reset}>
+            <RefreshCw className="mr-2 size-3.5" />
+            Try again
+          </Button>
         </div>
-
-        <div className="space-y-2">
-          <h2 className="text-xl font-semibold text-gray-900">Something went wrong!</h2>
-
-          <p>{error.message}</p>
-        </div>
-      </div>
-
-      <div className="flex items-center gap-x-3">
-        <Button onClick={reset} className="px-6 font-medium">
-          Try again
-        </Button>
-
-        <Button variant="ghost" className="font-medium" asChild>
-          <Link href="/">Go back</Link>
-        </Button>
       </div>
     </div>
   );
 };
+
 export default ErrorPage;
