@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const siteConfig: Metadata = {
   title: 'Docs | Google Docs Clone',
-  description: 'Full-stack Realtime Google Docs Clone using Next.js 14 and Convex.',
+  description: 'Full-stack Realtime Google Docs Clone using Next.js 15 and Convex.',
   keywords: [
     'reactjs',
     'nextjs',
