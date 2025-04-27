@@ -176,7 +176,9 @@ Set the `NEXT_PUBLIC_APP_BASE_URL` to `http://localhost:3000` where your app wil
 - Navigate to the "API Keys" tab.
 - Copy the "Publishable Key" and replace `<your-clerk-publishable-key>` in the `.env.local` file with the copied key.
 - Copy the "Secret Key" and replace `<your-clerk-secret-key>` in the `.env.local` file with the copied key.
-- Go to your Clerk dashboard > JWT Templates > New template > Convex > Save and copy your Issuer URL.
+- Go to your Clerk dashboard > JWT Templates > New template > Convex.
+- In the **Claims section** add `"organization_id": "{{org.id}}"` along with the existing json values.
+- Click on save and copy the **Issuer url**.
 - Replace `<your-clerk-issuer-url>` with the url that you copied.
 - Also, go to Convex dashboard > Settings > Environment Variables > Add `CLERK_ISSUER_URL` variable with value that you copied.
 
