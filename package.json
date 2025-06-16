@@ -129,7 +129,7 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.25.9",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-    "@types/node": "^22",
+    "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-color": "^3.0.12",
     "@types/react-dom": "^19",
