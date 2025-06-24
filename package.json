@@ -81,7 +81,7 @@
     "@clerk/nextjs": "^6.9.14",
     "@liveblocks/client": "^3.0.0",
     "@liveblocks/node": "^3.0.0",
-    "@liveblocks/react": "^2.16.0",
+    "@liveblocks/react": "^3.0.0",
     "@liveblocks/react-tiptap": "^3.0.0",
     "@liveblocks/react-ui": "^3.0.0",
     "@radix-ui/react-alert-dialog": "^1.1.4",
