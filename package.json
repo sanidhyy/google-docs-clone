@@ -104,7 +104,7 @@
     "@tiptap/extension-text-align": "^3.0.1",
     "@tiptap/extension-text-style": "^2.10.3",
     "@tiptap/extension-underline": "^3.0.1",
-    "@tiptap/pm": "^2.10.3",
+    "@tiptap/pm": "^3.1.0",
     "@tiptap/react": "^2.11.2",
     "@tiptap/starter-kit": "^2.11.2",
     "class-variance-authority": "^0.7.1",
