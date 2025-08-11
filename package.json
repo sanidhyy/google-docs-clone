@@ -96,7 +96,7 @@
     "@tiptap/extension-image": "^3.0.1",
     "@tiptap/extension-link": "^2.11.2",
     "@tiptap/extension-table": "^2.10.3",
-    "@tiptap/extension-table-cell": "^2.10.3",
+    "@tiptap/extension-table-cell": "^3.1.0",
     "@tiptap/extension-table-header": "^3.1.0",
     "@tiptap/extension-table-row": "^2.10.3",
     "@tiptap/extension-task-item": "^3.0.1",
