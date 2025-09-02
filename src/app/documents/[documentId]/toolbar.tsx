@@ -386,7 +386,7 @@ const HighlightColorButton = () => {
   const value = editor?.getAttributes('highlight').color as string;
 
   const onChange = (color: ColorResult) => {
-    editor?.commands.setHighlight({ color: color as unknown as string });
+    editor?.commands.setHighlight({ color: color.hex });
   };
 
   return (
