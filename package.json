@@ -79,7 +79,7 @@
   ],
   "dependencies": {
     "@clerk/nextjs": "^6.9.14",
-    "@liveblocks/client": "3.3.0",
+    "@liveblocks/client": "3.6.0",
     "@liveblocks/node": "3.4.0",
     "@liveblocks/react": "3.3.0",
     "@liveblocks/react-tiptap": "3.3.0",
