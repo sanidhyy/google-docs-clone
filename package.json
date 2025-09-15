@@ -102,7 +102,7 @@
     "@tiptap/extension-text-style": "^3.3.0",
     "@tiptap/extension-underline": "^3.4.1",
     "@tiptap/pm": "^2.24.3",
-    "@tiptap/react": "^2.11.2",
+    "@tiptap/react": "^3.4.3",
     "@tiptap/starter-kit": "^2.24.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
