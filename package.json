@@ -82,7 +82,7 @@
     "@liveblocks/client": "3.3.0",
     "@liveblocks/node": "3.7.1",
     "@liveblocks/react": "3.3.0",
-    "@liveblocks/react-tiptap": "3.3.0",
+    "@liveblocks/react-tiptap": "3.7.1",
     "@liveblocks/react-ui": "3.3.0",
     "@radix-ui/react-alert-dialog": "^1.1.4",
     "@radix-ui/react-dialog": "^1.1.4",
