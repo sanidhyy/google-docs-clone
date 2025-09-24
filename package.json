@@ -90,7 +90,7 @@
     "@radix-ui/react-menubar": "^1.1.4",
     "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.1",
-    "@tiptap/core": "^3.4.5",
+    "@tiptap/core": "^2.24.3",
     "@tiptap/extension-font-family": "^3.4.1",
     "@tiptap/extension-highlight": "^3.3.0",
     "@tiptap/extension-image": "^3.4.3",
