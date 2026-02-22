@@ -43,6 +43,7 @@
 
 Here is the folder structure of this app.
 
+<!--- FOLDER_STRUCTURE_START --->
 ```bash
 google-docs-clone/
   |- convex/
@@ -114,6 +115,7 @@ google-docs-clone/
   |- tailwind.config.ts
   |- tsconfig.json
 ```
+<!--- FOLDER_STRUCTURE_END --->
 
 <br />
 
@@ -220,6 +222,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Docs.
 
 - Thanks to CodeWithAntonio: https://codewithantonio.com/
+<!--- DEPENDENCIES_START --->
 - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^6.9.14
 - [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): ^2.16.0
 - [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): ^2.16.0
@@ -280,6 +283,7 @@ Useful resources and dependencies that are used in Docs.
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.4.1
 - [tidy-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports): npm:@trivago/prettier-plugin-sort-imports
 - [typescript](https://www.npmjs.com/package/typescript): ^5
+<!--- DEPENDENCIES_END --->
 
 ## :coffee: Buy Me a Coffee
 
