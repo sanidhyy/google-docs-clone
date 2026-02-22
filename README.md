@@ -49,57 +49,23 @@ google-docs-clone/
   |- convex/
     |-- _generated/
     |-- .env.example
-    |-- .env.local
     |-- auth.config.ts
     |-- documents.ts
     |-- environment.d.ts
     |-- schema.ts
   |- public/
-    |-- blank-document.svg
-    |-- business-letter.svg
-    |-- cover-letter.svg
-    |-- letter.svg
-    |-- logo.svg
-    |-- project-proposal.svg
-    |-- resume.svg
-    |-- software-proposal.svg
   |- src/
     |-- app/
-        |--- (home)/
-        |--- api/
-        |--- documents/
-        |--- apple-icon.png
-        |--- error.tsx
-        |--- favicon.ico
-        |--- globals.css
-        |--- icon1.png
-        |--- icon2.png
-        |--- layout.tsx
-        |--- not-found.tsx
     |-- components/
-        |--- ui/
-        |--- convex-client-provider.tsx
-        |--- fullscreen-loader.tsx
-        |--- remove-dialog.tsx
-        |--- rename-dialog.tsx
     |-- config/
-        |--- editor.ts
-        |--- index.ts
     |-- constants/
-        |--- index.ts
     |-- extensions/
-        |--- font-size.ts
-        |--- line-height.ts
     |-- hooks/
-        |--- use-debounce.ts
-        |--- use-search-param.tsx
     |-- lib/
-        |--- utils.ts
-    |-- store
-        |--- use-editor-store.ts
+    |-- store/
     |-- middleware.ts
   |- .env.example
-  |- .env.local
+  |- .env/.env.local
   |- .eslintrc.json
   |- .gitignore
   |- .prettierrc.json
@@ -111,9 +77,9 @@ google-docs-clone/
   |- next.config.ts
   |- package.json
   |- postcss.config.mjs
-  |- README.md
   |- tailwind.config.ts
   |- tsconfig.json
+  |- vercel.ts
 ```
 <!--- FOLDER_STRUCTURE_END --->
 
@@ -223,66 +189,69 @@ Useful resources and dependencies that are used in Docs.
 
 - Thanks to CodeWithAntonio: https://codewithantonio.com/
 <!--- DEPENDENCIES_START --->
+- [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^7.25.9
 - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^6.9.14
-- [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): ^2.16.0
-- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): ^2.16.0
-- [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): ^2.16.0
-- [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): ^2.16.0
-- [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): ^2.16.0
+- [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): 3.3.0
+- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): 3.13.5
+- [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): 3.3.0
+- [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): 3.3.0
+- [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): 3.3.0
 - [@radix-ui/react-alert-dialog](https://www.npmjs.com/package/@radix-ui/react-alert-dialog): ^1.1.4
 - [@radix-ui/react-dialog](https://www.npmjs.com/package/@radix-ui/react-dialog): ^1.1.4
 - [@radix-ui/react-dropdown-menu](https://www.npmjs.com/package/@radix-ui/react-dropdown-menu): ^2.1.2
 - [@radix-ui/react-menubar](https://www.npmjs.com/package/@radix-ui/react-menubar): ^1.1.4
 - [@radix-ui/react-separator](https://www.npmjs.com/package/@radix-ui/react-separator): ^1.1.0
 - [@radix-ui/react-slot](https://www.npmjs.com/package/@radix-ui/react-slot): ^1.1.1
-- [@tiptap/extension-font-family](https://www.npmjs.com/package/@tiptap/extension-font-family): ^2.10.3
-- [@tiptap/extension-highlight](https://www.npmjs.com/package/@tiptap/extension-highlight): ^2.10.3
-- [@tiptap/extension-image](https://www.npmjs.com/package/@tiptap/extension-image): ^2.10.3
-- [@tiptap/extension-link](https://www.npmjs.com/package/@tiptap/extension-link): ^2.11.2
-- [@tiptap/extension-table](https://www.npmjs.com/package/@tiptap/extension-table): ^2.10.3
-- [@tiptap/extension-task-item](https://www.npmjs.com/package/@tiptap/extension-task-item): ^2.10.3
-- [@tiptap/extension-task-list](https://www.npmjs.com/package/@tiptap/extension-task-list): ^2.10.3
-- [@tiptap/extension-text-align](https://www.npmjs.com/package/@tiptap/extension-text-align): ^2.11.2
-- [@tiptap/extension-text-style](https://www.npmjs.com/package/@tiptap/extension-text-style): ^2.10.3
-- [@tiptap/extension-underline](https://www.npmjs.com/package/@tiptap/extension-underline): ^2.10.3
-- [@tiptap/pm](https://www.npmjs.com/package/@tiptap/pm): ^2.10.3
+- [@tiptap/core](https://www.npmjs.com/package/@tiptap/core): ^2.24.3
+- [@tiptap/extension-font-family](https://www.npmjs.com/package/@tiptap/extension-font-family): ^3.4.1
+- [@tiptap/extension-highlight](https://www.npmjs.com/package/@tiptap/extension-highlight): ^3.3.0
+- [@tiptap/extension-image](https://www.npmjs.com/package/@tiptap/extension-image): ^3.4.3
+- [@tiptap/extension-link](https://www.npmjs.com/package/@tiptap/extension-link): ^3.4.3
+- [@tiptap/extension-table](https://www.npmjs.com/package/@tiptap/extension-table): ^3.3.0
+- [@tiptap/extension-task-item](https://www.npmjs.com/package/@tiptap/extension-task-item): ^3.3.0
+- [@tiptap/extension-task-list](https://www.npmjs.com/package/@tiptap/extension-task-list): ^3.3.0
+- [@tiptap/extension-text-align](https://www.npmjs.com/package/@tiptap/extension-text-align): ^3.3.0
+- [@tiptap/extension-text-style](https://www.npmjs.com/package/@tiptap/extension-text-style): ^3.3.0
+- [@tiptap/extension-underline](https://www.npmjs.com/package/@tiptap/extension-underline): ^3.4.1
+- [@tiptap/pm](https://www.npmjs.com/package/@tiptap/pm): ^3.4.3
 - [@tiptap/react](https://www.npmjs.com/package/@tiptap/react): ^2.11.2
-- [@tiptap/starter-kit](https://www.npmjs.com/package/@tiptap/starter-kit): ^2.11.2
+- [@tiptap/starter-kit](https://www.npmjs.com/package/@tiptap/starter-kit): ^2.24.3
+- [@trivago/prettier-plugin-sort-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports): ^6.0.0
+- [@types/node](https://www.npmjs.com/package/@types/node): ^25
+- [@types/react](https://www.npmjs.com/package/@types/react): ^19
+- [@types/react-color](https://www.npmjs.com/package/@types/react-color): ^3.0.12
+- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19
+- [@vercel/config](https://www.npmjs.com/package/@vercel/config): ^0.0.33
 - [class-variance-authority](https://www.npmjs.com/package/class-variance-authority): ^0.7.1
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
 - [convex](https://www.npmjs.com/package/convex): ^1.18.2
 - [date-fns](https://www.npmjs.com/package/date-fns): ^4.1.0
 - [embla-carousel-react](https://www.npmjs.com/package/embla-carousel-react): ^8.5.2
-- [lucide-react](https://www.npmjs.com/package/lucide-react): ^0.464.0
-- [next](https://www.npmjs.com/package/next): 15.0.3
+- [eslint](https://www.npmjs.com/package/eslint): ^10
+- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 15.5.10
+- [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): ^10.0.1
+- [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier): ^5.2.1
+- [lucide-react](https://www.npmjs.com/package/lucide-react): ^0.564.0
+- [next](https://www.npmjs.com/package/next): 15.5.10
 - [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.4
 - [nuqs](https://www.npmjs.com/package/nuqs): ^2.3.1
-- [react](https://www.npmjs.com/package/react): 19.0.0-rc-66855b96-20241106
-- [react-color](https://www.npmjs.com/package/react-color): ^2.19.3
-- [react-dom](https://www.npmjs.com/package/react-dom): 19.0.0-rc-66855b96-20241106
-- [react-icons](https://www.npmjs.com/package/react-icons): ^5.4.0
-- [sonner](https://www.npmjs.com/package/sonner): ^1.7.2
-- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^2.5.5
-- [tailwindcss-animate](https://www.npmjs.com/package/tailwindcss-animate): ^1.0.7
-- [tiptap-extension-resize-image](https://www.npmjs.com/package/tiptap-extension-resize-image): ^1.2.1
-- [zustand](https://www.npmjs.com/package/zustand): ^5.0.1
-- [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^7.25.9
-- [@trivago/prettier-plugin-sort-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports): ^4.3.0
-- [@types/node](https://www.npmjs.com/package/@types/node): ^20
-- [@types/react](https://www.npmjs.com/package/@types/react): ^18
-- [@types/react-color](https://www.npmjs.com/package/@types/react-color): ^3.0.12
-- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18
-- [eslint](https://www.npmjs.com/package/eslint): ^8
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 15.0.3
-- [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): ^9.1.0
-- [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier): ^5.2.1
 - [postcss](https://www.npmjs.com/package/postcss): ^8
 - [prettier](https://www.npmjs.com/package/prettier): ^3.4.1
-- [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss): ^0.6.9
-- [sort-classes](https://www.npmjs.com/package/prettier-plugin-tailwindcss): npm:prettier-plugin-tailwindcss
+- [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss): ^0.7.1
+- [react](https://www.npmjs.com/package/react): 19.2.4
+- [react-color](https://www.npmjs.com/package/react-color): ^2.19.3
+- [react-dom](https://www.npmjs.com/package/react-dom): 19.2.4
+- [react-icons](https://www.npmjs.com/package/react-icons): ^5.4.0
+- [sonner](https://www.npmjs.com/package/sonner): ^2.0.1
+- [sort-classes](https://www.npmjs.com/package/sort-classes): npm:prettier-plugin-tailwindcss
+- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.0.1
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.4.1
-- [tidy-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports): npm:@trivago/prettier-plugin-sort-imports
+- [tailwindcss-animate](https://www.npmjs.com/package/tailwindcss-animate): ^1.0.7
+- [tidy-imports](https://www.npmjs.com/package/tidy-imports): npm:@trivago/prettier-plugin-sort-imports
+- [tiptap-extension-resize-image](https://www.npmjs.com/package/tiptap-extension-resize-image): ^1.3.0
 - [typescript](https://www.npmjs.com/package/typescript): ^5
+- [zustand](https://www.npmjs.com/package/zustand): ^5.0.1
+
 <!--- DEPENDENCIES_END --->
 
 ## :coffee: Buy Me a Coffee
