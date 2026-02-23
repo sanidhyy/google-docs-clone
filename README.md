@@ -56,13 +56,38 @@ google-docs-clone/
   |- public/
   |- src/
     |-- app/
+      |--- (home)/
+      |--- api/
+      |--- documents/
+      |--- apple-icon.png
+      |--- error.tsx
+      |--- favicon.ico
+      |--- globals.css
+      |--- icon1.png
+      |--- icon2.png
+      |--- layout.tsx
+      |--- not-found.tsx
     |-- components/
+      |--- ui/
+      |--- convex-client-provider.tsx
+      |--- fullscreen-loader.tsx
+      |--- remove-dialog.tsx
+      |--- rename-dialog.tsx
     |-- config/
+      |--- editor.ts
+      |--- index.ts
     |-- constants/
+      |--- templates.ts
     |-- extensions/
+      |--- font-size.ts
+      |--- line-height.ts
     |-- hooks/
+      |--- use-debounce.ts
+      |--- use-search-param.ts
     |-- lib/
+      |--- utils.ts
     |-- store/
+      |--- use-editor-store.ts
     |-- middleware.ts
   |- .env.example
   |- .env/.env.local
