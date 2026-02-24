@@ -217,7 +217,7 @@ Useful resources and dependencies that are used in Docs.
 - [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^7.25.9
 - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^6.9.14
 - [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): 3.3.0
-- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): 3.13.5
+- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): 3.14.0
 - [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): 3.3.0
 - [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): 3.3.0
 - [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): 3.3.0
@@ -256,7 +256,7 @@ Useful resources and dependencies that are used in Docs.
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 15.5.10
 - [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): ^10.0.1
 - [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier): ^5.2.1
-- [lucide-react](https://www.npmjs.com/package/lucide-react): ^0.564.0
+- [lucide-react](https://www.npmjs.com/package/lucide-react): ^0.575.0
 - [next](https://www.npmjs.com/package/next): 15.5.10
 - [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.4
 - [nuqs](https://www.npmjs.com/package/nuqs): ^2.3.1
