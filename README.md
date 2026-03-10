@@ -246,7 +246,7 @@ Useful resources and dependencies that are used in Docs.
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19
 - [@types/react-color](https://www.npmjs.com/package/@types/react-color): ^3.0.12
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19
-- [@vercel/config](https://www.npmjs.com/package/@vercel/config): ^0.0.36
+- [@vercel/config](https://www.npmjs.com/package/@vercel/config): ^0.0.37
 - [class-variance-authority](https://www.npmjs.com/package/class-variance-authority): ^0.7.1
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
 - [convex](https://www.npmjs.com/package/convex): ^1.18.2
