@@ -215,7 +215,7 @@ Useful resources and dependencies that are used in Docs.
 - Thanks to CodeWithAntonio: https://codewithantonio.com/
 <!--- DEPENDENCIES_START --->
 - [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^7.25.9
-- [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^6.9.14
+- [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^7.0.2
 - [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): 3.3.0
 - [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): 3.15.0
 - [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): 3.3.0
