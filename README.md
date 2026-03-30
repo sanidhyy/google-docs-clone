@@ -216,11 +216,11 @@ Useful resources and dependencies that are used in Docs.
 <!--- DEPENDENCIES_START --->
 - [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^7.25.9
 - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^7.0.2
-- [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): 3.3.0
-- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): 3.15.4
-- [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): 3.3.0
+- [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): 3.15.5
+- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): 3.15.5
+- [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): 3.15.5
 - [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): 3.3.0
-- [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): 3.3.0
+- [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): 3.15.5
 - [@radix-ui/react-alert-dialog](https://www.npmjs.com/package/@radix-ui/react-alert-dialog): ^1.1.4
 - [@radix-ui/react-dialog](https://www.npmjs.com/package/@radix-ui/react-dialog): ^1.1.4
 - [@radix-ui/react-dropdown-menu](https://www.npmjs.com/package/@radix-ui/react-dropdown-menu): ^2.1.2
