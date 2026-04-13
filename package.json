@@ -116,7 +116,7 @@
     "nuqs": "^2.3.1",
     "react": "19.2.5",
     "react-color": "^2.19.3",
-    "react-dom": "19.2.4",
+    "react-dom": "19.2.5",
     "react-icons": "^5.4.0",
     "sonner": "^2.0.1",
     "tailwind-merge": "^3.0.1",
