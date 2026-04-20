@@ -80,7 +80,7 @@
   "dependencies": {
     "@clerk/nextjs": "^7.0.2",
     "@liveblocks/client": "3.3.0",
-    "@liveblocks/node": "3.18.1",
+    "@liveblocks/node": "3.18.4",
     "@liveblocks/react": "3.3.0",
     "@liveblocks/react-tiptap": "3.3.0",
     "@liveblocks/react-ui": "3.3.0",
