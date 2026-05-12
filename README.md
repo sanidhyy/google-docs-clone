@@ -253,11 +253,11 @@ Useful resources and dependencies that are used in Docs.
 - [date-fns](https://www.npmjs.com/package/date-fns): ^4.1.0
 - [embla-carousel-react](https://www.npmjs.com/package/embla-carousel-react): ^8.5.2
 - [eslint](https://www.npmjs.com/package/eslint): ^10
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 15.5.10
+- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 15.5.18
 - [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): ^10.0.1
 - [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier): ^5.2.1
 - [lucide-react](https://www.npmjs.com/package/lucide-react): ^1.7.0
-- [next](https://www.npmjs.com/package/next): 15.5.10
+- [next](https://www.npmjs.com/package/next): 15.5.18
 - [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.4
 - [nuqs](https://www.npmjs.com/package/nuqs): ^2.3.1
 - [postcss](https://www.npmjs.com/package/postcss): ^8
