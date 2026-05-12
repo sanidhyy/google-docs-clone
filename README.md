@@ -265,7 +265,7 @@ Useful resources and dependencies that are used in Docs.
 - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss): ^0.8.0
 - [react](https://www.npmjs.com/package/react): 19.2.6
 - [react-color](https://www.npmjs.com/package/react-color): ^2.19.3
-- [react-dom](https://www.npmjs.com/package/react-dom): 19.2.5
+- [react-dom](https://www.npmjs.com/package/react-dom): 19.2.6
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.4.0
 - [sonner](https://www.npmjs.com/package/sonner): ^2.0.1
 - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.0.1
