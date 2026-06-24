@@ -242,7 +242,7 @@ Useful resources and dependencies that are used in Docs.
 - [@tiptap/react](https://www.npmjs.com/package/@tiptap/react): ^2.11.2
 - [@tiptap/starter-kit](https://www.npmjs.com/package/@tiptap/starter-kit): ^2.24.3
 - [@trivago/prettier-plugin-sort-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports): ^6.0.0
-- [@types/node](https://www.npmjs.com/package/@types/node): ^25
+- [@types/node](https://www.npmjs.com/package/@types/node): ^26
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19
 - [@types/react-color](https://www.npmjs.com/package/@types/react-color): ^3.0.12
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19
