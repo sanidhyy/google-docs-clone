@@ -95,12 +95,13 @@ google-docs-clone/
   |- .gitignore
   |- .prettierrc.json
   |- .prettierrc.mjs
-  |- bun.lockb
   |- components.json
   |- environment.d.ts
   |- liveblocks.config.ts
   |- next.config.ts
   |- package.json
+  |- pnpm-lock.yaml
+  |- pnpm-workspace.yaml
   |- postcss.config.mjs
   |- tailwind.config.ts
   |- tsconfig.json
@@ -216,31 +217,30 @@ Useful resources and dependencies that are used in Docs.
 <!--- DEPENDENCIES_START --->
 - [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^8.0.1
 - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^7.0.2
-- [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): 3.3.0
-- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): 3.21.0
-- [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): 3.3.0
-- [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): 3.3.0
-- [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): 3.3.0
+- [@floating-ui/dom](https://www.npmjs.com/package/@floating-ui/dom): ^1.6.0
+- [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): ^3.10.0
+- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): ^3.10.0
+- [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): ^3.10.0
+- [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): ^3.10.0
+- [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): ^3.10.0
 - [@radix-ui/react-alert-dialog](https://www.npmjs.com/package/@radix-ui/react-alert-dialog): ^1.1.4
 - [@radix-ui/react-dialog](https://www.npmjs.com/package/@radix-ui/react-dialog): ^1.1.4
 - [@radix-ui/react-dropdown-menu](https://www.npmjs.com/package/@radix-ui/react-dropdown-menu): ^2.1.2
 - [@radix-ui/react-menubar](https://www.npmjs.com/package/@radix-ui/react-menubar): ^1.1.4
 - [@radix-ui/react-separator](https://www.npmjs.com/package/@radix-ui/react-separator): ^1.1.0
 - [@radix-ui/react-slot](https://www.npmjs.com/package/@radix-ui/react-slot): ^1.1.1
-- [@tiptap/core](https://www.npmjs.com/package/@tiptap/core): ^2.24.3
-- [@tiptap/extension-font-family](https://www.npmjs.com/package/@tiptap/extension-font-family): ^3.4.1
-- [@tiptap/extension-highlight](https://www.npmjs.com/package/@tiptap/extension-highlight): ^3.3.0
-- [@tiptap/extension-image](https://www.npmjs.com/package/@tiptap/extension-image): ^3.4.3
-- [@tiptap/extension-link](https://www.npmjs.com/package/@tiptap/extension-link): ^3.4.3
-- [@tiptap/extension-table](https://www.npmjs.com/package/@tiptap/extension-table): ^3.3.0
-- [@tiptap/extension-task-item](https://www.npmjs.com/package/@tiptap/extension-task-item): ^3.3.0
-- [@tiptap/extension-task-list](https://www.npmjs.com/package/@tiptap/extension-task-list): ^3.3.0
-- [@tiptap/extension-text-align](https://www.npmjs.com/package/@tiptap/extension-text-align): ^3.3.0
-- [@tiptap/extension-text-style](https://www.npmjs.com/package/@tiptap/extension-text-style): ^3.3.0
-- [@tiptap/extension-underline](https://www.npmjs.com/package/@tiptap/extension-underline): ^3.4.1
-- [@tiptap/pm](https://www.npmjs.com/package/@tiptap/pm): ^3.4.3
-- [@tiptap/react](https://www.npmjs.com/package/@tiptap/react): ^2.11.2
-- [@tiptap/starter-kit](https://www.npmjs.com/package/@tiptap/starter-kit): ^2.24.3
+- [@tiptap/core](https://www.npmjs.com/package/@tiptap/core): 3.27.1
+- [@tiptap/extension-font-family](https://www.npmjs.com/package/@tiptap/extension-font-family): 3.27.1
+- [@tiptap/extension-highlight](https://www.npmjs.com/package/@tiptap/extension-highlight): 3.27.1
+- [@tiptap/extension-image](https://www.npmjs.com/package/@tiptap/extension-image): 3.27.1
+- [@tiptap/extension-list](https://www.npmjs.com/package/@tiptap/extension-list): 3.27.1
+- [@tiptap/extension-table](https://www.npmjs.com/package/@tiptap/extension-table): 3.27.1
+- [@tiptap/extension-text-align](https://www.npmjs.com/package/@tiptap/extension-text-align): 3.27.1
+- [@tiptap/extension-text-style](https://www.npmjs.com/package/@tiptap/extension-text-style): 3.27.1
+- [@tiptap/pm](https://www.npmjs.com/package/@tiptap/pm): 3.27.1
+- [@tiptap/react](https://www.npmjs.com/package/@tiptap/react): 3.27.1
+- [@tiptap/starter-kit](https://www.npmjs.com/package/@tiptap/starter-kit): 3.27.1
+- [@tiptap/suggestion](https://www.npmjs.com/package/@tiptap/suggestion): 3.27.1
 - [@trivago/prettier-plugin-sort-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports): ^6.0.0
 - [@types/node](https://www.npmjs.com/package/@types/node): ^26
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19
