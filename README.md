@@ -233,7 +233,7 @@ Useful resources and dependencies that are used in Docs.
 - [@tiptap/extension-font-family](https://www.npmjs.com/package/@tiptap/extension-font-family): 3.27.1
 - [@tiptap/extension-highlight](https://www.npmjs.com/package/@tiptap/extension-highlight): 3.27.2
 - [@tiptap/extension-image](https://www.npmjs.com/package/@tiptap/extension-image): 3.27.1
-- [@tiptap/extension-list](https://www.npmjs.com/package/@tiptap/extension-list): 3.27.1
+- [@tiptap/extension-list](https://www.npmjs.com/package/@tiptap/extension-list): 3.27.2
 - [@tiptap/extension-table](https://www.npmjs.com/package/@tiptap/extension-table): 3.27.1
 - [@tiptap/extension-text-align](https://www.npmjs.com/package/@tiptap/extension-text-align): 3.27.1
 - [@tiptap/extension-text-style](https://www.npmjs.com/package/@tiptap/extension-text-style): 3.27.2
