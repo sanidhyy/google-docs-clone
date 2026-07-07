@@ -52,7 +52,7 @@ importers:
         version: 3.27.1(@tiptap/pm@3.27.1)
       '@tiptap/extension-font-family':
         specifier: 3.27.1
-        version: 3.27.1(@tiptap/extension-text-style@3.27.1(@tiptap/core@3.27.1(@tiptap/pm@3.27.1)))
+        version: 3.27.1(@tiptap/extension-text-style@3.27.2(@tiptap/core@3.27.1(@tiptap/pm@3.27.1)))
       '@tiptap/extension-highlight':
         specifier: 3.27.2
         version: 3.27.2(@tiptap/core@3.27.1(@tiptap/pm@3.27.1))
@@ -69,8 +69,8 @@ importers:
         specifier: 3.27.1
         version: 3.27.1(@tiptap/core@3.27.1(@tiptap/pm@3.27.1))
       '@tiptap/extension-text-style':
-        specifier: 3.27.1
-        version: 3.27.1(@tiptap/core@3.27.1(@tiptap/pm@3.27.1))
+        specifier: 3.27.2
+        version: 3.27.2(@tiptap/core@3.27.1(@tiptap/pm@3.27.1))
       '@tiptap/pm':
         specifier: 3.27.1
         version: 3.27.1
@@ -1730,10 +1730,10 @@ packages:
     peerDependencies:
       '@tiptap/core': 3.27.1
 
-  '@tiptap/extension-text-style@3.27.1':
-    resolution: {integrity: sha512-J48WIl+6YDYTFPhWXUBQk+u7+AKVUqTdvrZOQyPYCGuQMgHrYzgWrI5+HeEifUgXJ5rMIWWP3qytp7KhVVqpDQ==}
+  '@tiptap/extension-text-style@3.27.2':
+    resolution: {integrity: sha512-kgGg3LXYnEEttqM6CsiSLxRVU5055vON1T5xipskmbdDtV/xXTykzbISiX3ND5zYw+BG7hF8COEKLt1iLo6LbA==}
     peerDependencies:
-      '@tiptap/core': 3.27.1
+      '@tiptap/core': 3.27.2
 
   '@tiptap/extension-text@3.27.1':
     resolution: {integrity: sha512-6ZwaZwSrDh+KFFv6V1J79oO37yPs7y1bFxvk1/9Ih2rn3Xr5AWz+eMS+n8RpH3djBVVAQpdIAeYQgcn+VCSsTg==}
@@ -5224,9 +5224,9 @@ snapshots:
       '@tiptap/pm': 3.27.1
     optional: true
 
-  '@tiptap/extension-font-family@3.27.1(@tiptap/extension-text-style@3.27.1(@tiptap/core@3.27.1(@tiptap/pm@3.27.1)))':
+  '@tiptap/extension-font-family@3.27.1(@tiptap/extension-text-style@3.27.2(@tiptap/core@3.27.1(@tiptap/pm@3.27.1)))':
     dependencies:
-      '@tiptap/extension-text-style': 3.27.1(@tiptap/core@3.27.1(@tiptap/pm@3.27.1))
+      '@tiptap/extension-text-style': 3.27.2(@tiptap/core@3.27.1(@tiptap/pm@3.27.1))
 
   '@tiptap/extension-gapcursor@3.27.1(@tiptap/extensions@3.27.1(@tiptap/core@3.27.1(@tiptap/pm@3.27.1))(@tiptap/pm@3.27.1))':
     dependencies:
@@ -5297,7 +5297,7 @@ snapshots:
     dependencies:
       '@tiptap/core': 3.27.1(@tiptap/pm@3.27.1)
 
-  '@tiptap/extension-text-style@3.27.1(@tiptap/core@3.27.1(@tiptap/pm@3.27.1))':
+  '@tiptap/extension-text-style@3.27.2(@tiptap/core@3.27.1(@tiptap/pm@3.27.1))':
     dependencies:
       '@tiptap/core': 3.27.1(@tiptap/pm@3.27.1)
 
