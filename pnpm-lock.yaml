@@ -51,8 +51,8 @@ importers:
         specifier: 3.27.3
         version: 3.27.3(@tiptap/pm@3.27.3)
       '@tiptap/extension-font-family':
-        specifier: 3.27.3
-        version: 3.27.3(@tiptap/extension-text-style@3.27.3(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))
+        specifier: 3.29.1
+        version: 3.29.1(@tiptap/extension-text-style@3.27.3(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))
       '@tiptap/extension-highlight':
         specifier: 3.27.3
         version: 3.27.3(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))
@@ -1931,10 +1931,10 @@ packages:
       '@tiptap/core': 3.27.3
       '@tiptap/pm': 3.27.3
 
-  '@tiptap/extension-font-family@3.27.3':
-    resolution: {integrity: sha512-DauTGtfBIFTfc87YWlYD4rJHGNa/Weg5P/N4O3uvu8ZOytT4k/hd+mu20vKu9vTZqAvC7L+W2YqKKv3/+jzPSQ==}
+  '@tiptap/extension-font-family@3.29.1':
+    resolution: {integrity: sha512-wX4B+85iCu6t1D8DaAl3ggneJqhE/9XtnYxCdgtzNy2i5wqcKuTPd4/HE8/n/GVxC8WMRUyvstR3zECMI17t8Q==}
     peerDependencies:
-      '@tiptap/extension-text-style': 3.27.3
+      '@tiptap/extension-text-style': 3.29.1
 
   '@tiptap/extension-gapcursor@3.27.3':
     resolution: {integrity: sha512-MVBqzwYrDOttkn2GOrvvKTDCymfSS2VGSKpahcKKhge5mweSDiqko2X1vBDnMF8aVW3WxIFfDMmO4VMmh8HDZA==}
@@ -5853,7 +5853,7 @@ snapshots:
       '@tiptap/pm': 3.27.3
     optional: true
 
-  '@tiptap/extension-font-family@3.27.3(@tiptap/extension-text-style@3.27.3(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))':
+  '@tiptap/extension-font-family@3.29.1(@tiptap/extension-text-style@3.27.3(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))':
     dependencies:
       '@tiptap/extension-text-style': 3.27.3(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))
 

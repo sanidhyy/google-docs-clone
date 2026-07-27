@@ -92,7 +92,7 @@
     "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.1",
     "@tiptap/core": "3.27.3",
-    "@tiptap/extension-font-family": "3.27.3",
+    "@tiptap/extension-font-family": "3.29.1",
     "@tiptap/extension-highlight": "3.27.3",
     "@tiptap/extension-image": "3.28.0",
     "@tiptap/extension-list": "3.27.3",
