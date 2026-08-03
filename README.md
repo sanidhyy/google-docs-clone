@@ -219,7 +219,7 @@ Useful resources and dependencies that are used in Docs.
 - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^7.5.14
 - [@floating-ui/dom](https://www.npmjs.com/package/@floating-ui/dom): ^1.8.0
 - [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): ^3.22.0
-- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): ^3.22.0
+- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): ^3.23.0
 - [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): ^3.22.0
 - [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): ^3.22.0
 - [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): ^3.22.0
