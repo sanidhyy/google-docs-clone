@@ -81,7 +81,7 @@
     "@clerk/nextjs": "^7.5.14",
     "@floating-ui/dom": "^1.8.0",
     "@liveblocks/client": "^3.22.0",
-    "@liveblocks/node": "^3.22.0",
+    "@liveblocks/node": "^3.23.0",
     "@liveblocks/react": "^3.22.0",
     "@liveblocks/react-tiptap": "^3.22.0",
     "@liveblocks/react-ui": "^3.22.0",
