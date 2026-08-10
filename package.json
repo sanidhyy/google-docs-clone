@@ -79,7 +79,7 @@
     }
   ],
   "dependencies": {
-    "@clerk/nextjs": "^7.5.14",
+    "@clerk/nextjs": "^7.7.0",
     "@floating-ui/dom": "^1.8.0",
     "@liveblocks/client": "^3.22.0",
     "@liveblocks/node": "^3.23.0",
