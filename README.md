@@ -231,7 +231,7 @@ Useful resources and dependencies that are used in Docs.
 - [@radix-ui/react-separator](https://www.npmjs.com/package/@radix-ui/react-separator): ^1.1.15
 - [@radix-ui/react-slot](https://www.npmjs.com/package/@radix-ui/react-slot): ^1.3.3
 - [@tiptap/core](https://www.npmjs.com/package/@tiptap/core): 3.27.3
-- [@tiptap/extension-font-family](https://www.npmjs.com/package/@tiptap/extension-font-family): 3.29.1
+- [@tiptap/extension-font-family](https://www.npmjs.com/package/@tiptap/extension-font-family): 3.29.2
 - [@tiptap/extension-highlight](https://www.npmjs.com/package/@tiptap/extension-highlight): 3.27.3
 - [@tiptap/extension-image](https://www.npmjs.com/package/@tiptap/extension-image): 3.28.0
 - [@tiptap/extension-list](https://www.npmjs.com/package/@tiptap/extension-list): 3.27.3
