@@ -135,8 +135,8 @@ importers:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.19)
       tiptap-extension-resize-image:
-        specifier: ^1.3.0
-        version: 1.4.4(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))(@tiptap/extension-image@3.28.0(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))(@tiptap/pm@3.27.3)
+        specifier: ^1.4.6
+        version: 1.4.6(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))(@tiptap/extension-image@3.28.0(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))(@tiptap/pm@3.27.3)
       zustand:
         specifier: ^5.0.1
         version: 5.0.14(@types/react@19.2.17)(immer@10.2.0)(react@19.2.8)(use-sync-external-store@1.6.0(react@19.2.8))
@@ -3946,8 +3946,8 @@ packages:
     resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
     engines: {node: '>=12.0.0'}
 
-  tiptap-extension-resize-image@1.4.4:
-    resolution: {integrity: sha512-y05Of2i2tT9msVtgjzBmJVG+c2pgUcL5bRHAfGL9ImD4fOsYDWj7EpOv291YR1mruX/L1xPBiaaZjOHiUSWtEQ==}
+  tiptap-extension-resize-image@1.4.6:
+    resolution: {integrity: sha512-fQDdJwU4sPIEqe0AUfyHefjLK9mp29f/TTGIZhZ/F7wjlPZlOSK+eQhsEOXrRS8BQ3pnbZc49GAu11Ptx9VcIA==}
     peerDependencies:
       '@tiptap/core': ^2.0.0 || ^3.0.0
       '@tiptap/extension-image': ^2.0.0 || ^3.0.0
@@ -8101,7 +8101,7 @@ snapshots:
       fdir: 6.5.0(picomatch@4.0.5)
       picomatch: 4.0.5
 
-  tiptap-extension-resize-image@1.4.4(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))(@tiptap/extension-image@3.28.0(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))(@tiptap/pm@3.27.3):
+  tiptap-extension-resize-image@1.4.6(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))(@tiptap/extension-image@3.28.0(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))(@tiptap/pm@3.27.3):
     dependencies:
       '@tiptap/core': 3.27.3(@tiptap/pm@3.27.3)
       '@tiptap/extension-image': 3.28.0(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))
