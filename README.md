@@ -276,7 +276,7 @@ Useful resources and dependencies that are used in Docs.
 - [react-color](https://www.npmjs.com/package/react-color): ^2.19.3
 - [react-dom](https://www.npmjs.com/package/react-dom): 19.2.8
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.4.0
-- [sonner](https://www.npmjs.com/package/sonner): ^2.0.1
+- [sonner](https://www.npmjs.com/package/sonner): ^2.0.8
 - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.0.1
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.4.1
 - [tailwindcss-animate](https://www.npmjs.com/package/tailwindcss-animate): ^1.0.7
