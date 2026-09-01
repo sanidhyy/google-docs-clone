@@ -268,7 +268,7 @@ Useful resources and dependencies that are used in Docs.
 - [lucide-react](https://www.npmjs.com/package/lucide-react): ^1.31.0
 - [next](https://www.npmjs.com/package/next): 15.5.22
 - [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.4
-- [nuqs](https://www.npmjs.com/package/nuqs): ^2.10.0
+- [nuqs](https://www.npmjs.com/package/nuqs): ^2.10.1
 - [postcss](https://www.npmjs.com/package/postcss): ^8
 - [prettier](https://www.npmjs.com/package/prettier): ^3.9.6
 - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss): ^0.8.1
