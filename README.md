@@ -282,7 +282,7 @@ Useful resources and dependencies that are used in Docs.
 - [tailwindcss-animate](https://www.npmjs.com/package/tailwindcss-animate): ^1.0.7
 - [tiptap-extension-resize-image](https://www.npmjs.com/package/tiptap-extension-resize-image): ^1.4.6
 - [typescript](https://www.npmjs.com/package/typescript): ^6
-- [zustand](https://www.npmjs.com/package/zustand): ^5.0.1
+- [zustand](https://www.npmjs.com/package/zustand): ^5.0.15
 
 <!--- DEPENDENCIES_END --->
 
