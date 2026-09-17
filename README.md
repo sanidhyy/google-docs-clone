@@ -44,6 +44,7 @@
 Here is the folder structure of this app.
 
 <!--- FOLDER_STRUCTURE_START --->
+
 ```bash
 google-docs-clone/
   |- convex/
@@ -108,6 +109,7 @@ google-docs-clone/
   |- vercel.sh
   |- vercel.ts
 ```
+
 <!--- FOLDER_STRUCTURE_END --->
 
 <br />
@@ -135,8 +137,7 @@ NEXT_PUBLIC_CONVEX_URL="https://<deployment-id>.convex.cloud"
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 CLERK_SECRET_KEY="sk_test_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-# liveblocks keys
-NEXT_PUBLIC_LIVEBLOCKS_API_KEY="pk_dev_-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+# liveblocks key
 LIVEBLOCKS_SECRET_KEY="sk_dev_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 ```
@@ -181,8 +182,8 @@ Set the `NEXT_PUBLIC_APP_BASE_URL` to `http://localhost:3000` where your app wil
 
 - Visit the Liveblocks website > dashboard.
 - Navigate to API settings or keys section.
-- Generate or locate your API key and secret.
-- Set `NEXT_PUBLIC_LIVEBLOCKS_API_KEY` and `LIVEBLOCKS_SECRET_KEY` in the `.env` file according to the obtained information.
+- Generate or locate your API secret.
+- Set `LIVEBLOCKS_SECRET_KEY` in the `.env` file according to the obtained information.
 
 10. Install Project Dependencies using `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps` or `bun install --legacy-peer-deps`.
 
@@ -223,7 +224,9 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Docs.
 
 - Thanks to CodeWithAntonio: https://codewithantonio.com/
+
 <!--- DEPENDENCIES_START --->
+
 - [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^8.0.1
 - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^7.9.1
 - [@floating-ui/dom](https://www.npmjs.com/package/@floating-ui/dom): ^1.8.0
