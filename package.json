@@ -121,7 +121,7 @@
     "sonner": "^2.0.8",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7",
-    "tiptap-extension-resize-image": "^1.4.6",
+    "tiptap-extension-resize-image": "^1.4.7",
     "zustand": "^5.0.15"
   },
   "devDependencies": {
