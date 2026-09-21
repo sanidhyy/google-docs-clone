@@ -107,7 +107,7 @@
     "@vercel/config": "^0.6.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "convex": "^1.45.0",
+    "convex": "^1.46.0",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.5.2",
     "lucide-react": "^1.47.0",
