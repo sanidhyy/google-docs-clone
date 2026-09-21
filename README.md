@@ -225,7 +225,7 @@ Useful resources and dependencies that are used in Docs.
 
 <!--- DEPENDENCIES_START --->
 - [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^8.0.1
-- [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^7.9.1
+- [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^7.9.4
 - [@floating-ui/dom](https://www.npmjs.com/package/@floating-ui/dom): ^1.8.0
 - [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): ^3.22.0
 - [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): ^3.24.1
