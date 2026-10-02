@@ -121,9 +121,10 @@ google-docs-clone/
 4. Contents of `.env.local`:
 
 ```env
-# disabled clerk and next.js telemetry
-NEXT_TELEMETRY_DISABLED=1
-CLERK_TELEMETRY_DISABLED=1
+# disabled telemetry
+DO_NOT_TRACK="1"
+NEXT_TELEMETRY_DISABLED="1"
+CLERK_TELEMETRY_DISABLED="1"
 
 # app base url
 NEXT_PUBLIC_APP_BASE_URL="http://localhost:3000"
@@ -131,6 +132,7 @@ NEXT_PUBLIC_APP_BASE_URL="http://localhost:3000"
 # convex deployment & url
 CONVEX_DEPLOYMENT="dev:<deployment-id>" # team: <team-id>, project: <project-id>
 NEXT_PUBLIC_CONVEX_URL="https://<deployment-id>.convex.cloud"
+NEXT_PUBLIC_CONVEX_SITE_URL="https://<deployment-id>.convex.site"
 
 # clerk auth keys
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
