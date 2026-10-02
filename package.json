@@ -3,21 +3,23 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "mprocs \"pnpm run dev:next\" \"pnpm run dev:convex\"",
+    "dev:next": "next dev",
+    "dev:convex": "convex dev",
     "build": "next build",
     "build:production": "pnpm dlx convex deploy --cmd 'pnpm run build'",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "format": "prettier --check . --config .prettierrc.mjs",
-    "format:fix": "prettier --write . --config .prettierrc.mjs"
+    "format": "prettier --check .",
+    "format:fix": "prettier --write ."
   },
   "author": {
     "name": "Sanidhya Kumar Verma",
     "email": "sanidhyyy@gmail.com",
     "url": "https://github.com/sanidhyy"
   },
-  "description": "Full-stack Realtime Google Docs Clone using Next.js 15 and Convex..",
+  "description": "Full-stack Realtime Google Docs Clone using Next.js 15 and Convex.",
   "keywords": [
     "reactjs",
     "nextjs",
