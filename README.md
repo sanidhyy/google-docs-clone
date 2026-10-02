@@ -91,12 +91,13 @@ google-docs-clone/
     |-- middleware.ts
   |- .env.example
   |- .env/.env.local
-  |- .eslintrc.json
   |- .gitignore
+  |- .prettierignore
   |- .prettierrc.json
-  |- .prettierrc.mjs
   |- components.json
+  |- convex.json
   |- environment.d.ts
+  |- eslint.config.mjs
   |- liveblocks.config.ts
   |- next.config.ts
   |- package.json
@@ -226,12 +227,14 @@ Useful resources and dependencies that are used in Docs.
 <!--- DEPENDENCIES_START --->
 - [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^8.0.6
 - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^7.9.7
+- [@eslint/eslintrc](https://www.npmjs.com/package/@eslint/eslintrc): ^3.3.7
 - [@floating-ui/dom](https://www.npmjs.com/package/@floating-ui/dom): ^1.8.0
 - [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): ^3.22.0
 - [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): ^3.24.2
 - [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): ^3.22.0
 - [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): ^3.22.0
 - [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): ^3.22.0
+- [@next/eslint-plugin-next](https://www.npmjs.com/package/@next/eslint-plugin-next): ^16.3.8
 - [@radix-ui/react-alert-dialog](https://www.npmjs.com/package/@radix-ui/react-alert-dialog): ^1.1.23
 - [@radix-ui/react-dialog](https://www.npmjs.com/package/@radix-ui/react-dialog): ^1.1.23
 - [@radix-ui/react-dropdown-menu](https://www.npmjs.com/package/@radix-ui/react-dropdown-menu): ^2.1.24
@@ -262,10 +265,11 @@ Useful resources and dependencies that are used in Docs.
 - [date-fns](https://www.npmjs.com/package/date-fns): ^4.1.0
 - [embla-carousel-react](https://www.npmjs.com/package/embla-carousel-react): ^8.5.2
 - [eslint](https://www.npmjs.com/package/eslint): ^10
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 15.5.18
+- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 15.5.22
 - [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): ^10.0.1
 - [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier): ^5.2.1
 - [lucide-react](https://www.npmjs.com/package/lucide-react): ^1.48.0
+- [mprocs](https://www.npmjs.com/package/mprocs): ^0.9.6
 - [next](https://www.npmjs.com/package/next): 15.5.22
 - [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.4
 - [nuqs](https://www.npmjs.com/package/nuqs): ^2.10.1
