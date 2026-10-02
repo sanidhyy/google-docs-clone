@@ -56,9 +56,9 @@ google-docs-clone/
   |- public/
   |- src/
     |-- app/
-      |--- (home)/
+      |--- (auth)/
+      |--- (main)/
       |--- api/
-      |--- documents/
       |--- apple-icon.png
       |--- error.tsx
       |--- favicon.ico
@@ -69,6 +69,7 @@ google-docs-clone/
       |--- not-found.tsx
     |-- components/
       |--- ui/
+      |--- auth-gate.tsx
       |--- convex-client-provider.tsx
       |--- fullscreen-loader.tsx
       |--- remove-dialog.tsx
