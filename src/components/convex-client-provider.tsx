@@ -11,7 +11,7 @@ export function ConvexClientProvider({ children }: PropsWithChildren) {
   return (
     <ClerkProvider
       publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
-      afterSignOutUrl="/"
+      afterSignOutUrl={process.env.NEXT_PUBLIC_CLERK_SIGN_IN_URL}
       appearance={{
         elements: {
           userButtonAvatarBox: {
