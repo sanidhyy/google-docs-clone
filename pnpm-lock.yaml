@@ -57,8 +57,8 @@ importers:
         specifier: 3.27.3
         version: 3.27.3(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))
       '@tiptap/extension-image':
-        specifier: 3.28.0
-        version: 3.28.0(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))
+        specifier: 3.31.4
+        version: 3.31.4(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))
       '@tiptap/extension-list':
         specifier: 3.27.3
         version: 3.27.3(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))(@tiptap/pm@3.27.3)
@@ -136,7 +136,7 @@ importers:
         version: 1.0.7(tailwindcss@3.4.19)
       tiptap-extension-resize-image:
         specifier: ^1.4.7
-        version: 1.4.7(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))(@tiptap/extension-image@3.28.0(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))(@tiptap/pm@3.27.3)
+        version: 1.4.7(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))(@tiptap/extension-image@3.31.4(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))(@tiptap/pm@3.27.3)
       zustand:
         specifier: ^5.0.15
         version: 5.0.15(@types/react@19.3.0)(immer@10.2.0)(react@19.3.0)(use-sync-external-store@1.6.0(react@19.3.0))
@@ -2017,10 +2017,10 @@ packages:
       '@tiptap/core': 3.27.3
       '@tiptap/pm': 3.27.3
 
-  '@tiptap/extension-image@3.28.0':
-    resolution: {integrity: sha512-aKGCdEjyujUcQ6tEtq4EPbKxEC16QsKapv3DeZs1c/UHFiEUalbbPHBnxjGnupiLz75IR+07GYqBoZ81kSCxiA==}
+  '@tiptap/extension-image@3.31.4':
+    resolution: {integrity: sha512-vtD+rK73abJnPRKOjU37sQTCa5Auyg451yhqZD/3lZKiFJDBHAZKI7lQARkXBQYK289hBhK6yMIwofoqCBvi3g==}
     peerDependencies:
-      '@tiptap/core': 3.28.0
+      '@tiptap/core': 3.31.4
 
   '@tiptap/extension-italic@3.27.3':
     resolution: {integrity: sha512-7VpVi2vn8kGFAc/HLrt96J/E6+LXOGKn8xLhJS863t150yLIG3EPQLA1h+G5O6eo+/w+9YokvJAAJoeDihj1Jg==}
@@ -5985,7 +5985,7 @@ snapshots:
       '@tiptap/core': 3.27.3(@tiptap/pm@3.27.3)
       '@tiptap/pm': 3.27.3
 
-  '@tiptap/extension-image@3.28.0(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))':
+  '@tiptap/extension-image@3.31.4(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))':
     dependencies:
       '@tiptap/core': 3.27.3(@tiptap/pm@3.27.3)
 
@@ -8231,10 +8231,10 @@ snapshots:
       fdir: 6.5.0(picomatch@4.0.5)
       picomatch: 4.0.5
 
-  tiptap-extension-resize-image@1.4.7(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))(@tiptap/extension-image@3.28.0(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))(@tiptap/pm@3.27.3):
+  tiptap-extension-resize-image@1.4.7(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))(@tiptap/extension-image@3.31.4(@tiptap/core@3.27.3(@tiptap/pm@3.27.3)))(@tiptap/pm@3.27.3):
     dependencies:
       '@tiptap/core': 3.27.3(@tiptap/pm@3.27.3)
-      '@tiptap/extension-image': 3.28.0(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))
+      '@tiptap/extension-image': 3.31.4(@tiptap/core@3.27.3(@tiptap/pm@3.27.3))
       '@tiptap/pm': 3.27.3
 
   to-regex-range@5.0.1:
