@@ -239,7 +239,7 @@ Useful resources and dependencies that are used in Docs.
 - [@eslint/eslintrc](https://www.npmjs.com/package/@eslint/eslintrc): ^3.3.7
 - [@floating-ui/dom](https://www.npmjs.com/package/@floating-ui/dom): ^1.8.0
 - [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): ^3.22.0
-- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): ^3.24.2
+- [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): ^3.24.3
 - [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): ^3.22.0
 - [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): ^3.22.0
 - [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): ^3.22.0
