@@ -244,7 +244,7 @@ Useful resources and dependencies that are used in Docs.
 - [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): ^3.22.0
 - [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): ^3.22.0
 - [@next/eslint-plugin-next](https://www.npmjs.com/package/@next/eslint-plugin-next): ^16.3.8
-- [@radix-ui/react-alert-dialog](https://www.npmjs.com/package/@radix-ui/react-alert-dialog): ^1.1.23
+- [@radix-ui/react-alert-dialog](https://www.npmjs.com/package/@radix-ui/react-alert-dialog): ^1.2.1
 - [@radix-ui/react-dialog](https://www.npmjs.com/package/@radix-ui/react-dialog): ^1.1.23
 - [@radix-ui/react-dropdown-menu](https://www.npmjs.com/package/@radix-ui/react-dropdown-menu): ^2.1.24
 - [@radix-ui/react-menubar](https://www.npmjs.com/package/@radix-ui/react-menubar): ^1.2.1
