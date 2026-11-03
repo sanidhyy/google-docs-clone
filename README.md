@@ -277,7 +277,7 @@ Useful resources and dependencies that are used in Docs.
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 15.5.28
 - [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): ^10.0.1
 - [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier): ^5.2.1
-- [lucide-react](https://www.npmjs.com/package/lucide-react): ^1.48.0
+- [lucide-react](https://www.npmjs.com/package/lucide-react): ^1.65.0
 - [mprocs](https://www.npmjs.com/package/mprocs): ^0.9.6
 - [next](https://www.npmjs.com/package/next): 15.5.28
 - [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.4
