@@ -281,7 +281,7 @@ Useful resources and dependencies that are used in Docs.
 - [mprocs](https://www.npmjs.com/package/mprocs): ^0.9.6
 - [next](https://www.npmjs.com/package/next): 15.5.28
 - [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.4
-- [nuqs](https://www.npmjs.com/package/nuqs): ^2.10.1
+- [nuqs](https://www.npmjs.com/package/nuqs): ^2.10.2
 - [postcss](https://www.npmjs.com/package/postcss): ^8
 - [prettier](https://www.npmjs.com/package/prettier): ^3.9.10
 - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss): ^0.8.1
