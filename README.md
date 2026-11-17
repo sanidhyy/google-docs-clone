@@ -233,7 +233,7 @@ Useful resources and dependencies that are used in Docs.
 - Thanks to CodeWithAntonio: https://codewithantonio.com/
 
 <!--- DEPENDENCIES_START --->
-- [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^8.0.6
+- [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^8.1.2
 - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^7.9.26
 - [@eslint/eslintrc](https://www.npmjs.com/package/@eslint/eslintrc): ^3.3.7
 - [@floating-ui/dom](https://www.npmjs.com/package/@floating-ui/dom): ^1.8.0
