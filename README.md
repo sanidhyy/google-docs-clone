@@ -237,11 +237,11 @@ Useful resources and dependencies that are used in Docs.
 - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs): ^7.10.0
 - [@eslint/eslintrc](https://www.npmjs.com/package/@eslint/eslintrc): ^3.3.7
 - [@floating-ui/dom](https://www.npmjs.com/package/@floating-ui/dom): ^1.8.0
-- [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): ^3.22.0
+- [@liveblocks/client](https://www.npmjs.com/package/@liveblocks/client): ^3.24.4
 - [@liveblocks/node](https://www.npmjs.com/package/@liveblocks/node): ^3.24.4
-- [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): ^3.22.0
-- [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): ^3.22.0
-- [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): ^3.22.0
+- [@liveblocks/react](https://www.npmjs.com/package/@liveblocks/react): ^3.24.4
+- [@liveblocks/react-tiptap](https://www.npmjs.com/package/@liveblocks/react-tiptap): ^3.24.4
+- [@liveblocks/react-ui](https://www.npmjs.com/package/@liveblocks/react-ui): ^3.24.4
 - [@next/eslint-plugin-next](https://www.npmjs.com/package/@next/eslint-plugin-next): ^16.4.6
 - [@radix-ui/react-alert-dialog](https://www.npmjs.com/package/@radix-ui/react-alert-dialog): ^1.2.1
 - [@radix-ui/react-dialog](https://www.npmjs.com/package/@radix-ui/react-dialog): ^1.3.1
